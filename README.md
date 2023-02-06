@@ -1,1 +1,1 @@
-# GenCyber-Camp-23
+# GCU GenCyber Camp 2023
