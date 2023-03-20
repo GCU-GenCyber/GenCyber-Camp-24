@@ -141,8 +141,11 @@ The ‘d’ is signifying that it is a directory, or folder.
 The directories are going to allow you to move in and out of them
 The next 9 are used as permissions of the different users of the machine. These are split into 3 sections. The 3 sections consist of 3 ‘-’ in them. 
 
-The fist dash in these sections is the read permission. If this ‘-’ has a ‘r’ in its place, then the user this section is have the permission to read the 
-The next dash is the write section, this dash signifies whether or not this user can edit this file. Again, if there is a ‘w’ in this dash slot, then the user can write to this file, if there is a ‘-’ then they do not have permission to write to it. The last slot is the executable permission, this slot will allow the user section to execute the file. This will show an ‘x’ in the slot if the user has that permission, if not, again, there will be a dash. 
+The fist dash in these sections is the read permission. If this ‘-’ has a ‘r’ in its place, then the user this section is have the permission to read the file.
+The next dash is the write section, this dash signifies whether or not this user can edit this file. 
+Again, if there is a ‘w’ in this dash slot, then the user can write to this file, if there is a ‘-’ then they do not have permission to write to it. 
+The last slot is the executable permission, this slot will allow the user section to execute the file. 
+This will show an ‘x’ in the slot if the user has that permission, if not, again, there will be a dash. 
 
 If you are interested in seeing the type of file a file is you can use the ‘file’ command. 
 Type the following command
@@ -156,7 +159,9 @@ In this example, this is a regular file. The owner can read and write to this fi
 Everyone else can read the file. In this example root is the owner and group owner of this file so only root can write. 
 
 The user part is self explanatory, they are the owner of the file. The group owner is the group assigned to a file. 
-Think of it as a company and their different divisions of workers. The group owner may be the division of the IT department. The IT employees will be a part of the group IT. So if a file says that IT is the group ownership, anyone in the IT group can do what is in the group section of the permissions. 
+Think of it as a company and their different divisions of workers. The group owner may be the division of the IT department. 
+The IT employees will be a part of the group IT. 
+So if a file says that IT is the group ownership, anyone in the IT group can do what is in the group section of the permissions. 
 
 Root is the king user. They can edit, move, delete, read, or configure anything in the computer. 
 They’re very powerful and dangerous user. If you have root access to a machine, you completely own that machine. 
@@ -173,7 +178,9 @@ To change users, you type ‘su “user”’. This will ask for the password of
 HARD
 Now let's start with some more challenging commands. 
 
-Text editors. These will allow you to change the content of files in the command line. There are two that are the most commonly used, nano and vim. Nano is more user friendly and self explanatory than vim. Vim is built as an upgrade to the old vi text editor. Vi was the linux text editor made back in 1978 so some of the old linux users are going to prefer the vim editor because it is what they are used to.
+Text editors. These will allow you to change the content of files in the command line. 
+There are two that are the most commonly used, nano and vim. Nano is more user friendly and self explanatory than vim. Vim is built as an upgrade to the old vi text editor. 
+Vi was the linux text editor made back in 1978 so some of the old linux users are going to prefer the vim editor because it is what they are used to.
 
 Type the following command
 Nano hi.txt
