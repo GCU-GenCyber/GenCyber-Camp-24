@@ -1,6 +1,6 @@
 Beginners:
 Lesson 1
-    Log into Kali using Root and toor
+	Log into Kali using Root and toor
         Explain what root is: like admin
 	Find Kali’s version of File Explorer and explore the files
         Don’t open anything just look at file names
@@ -42,8 +42,7 @@ Lesson 1
 	            How do we get there?
 	        Cd: change directory
 	            cd Documents
-	            LINUX IS CASE SENSITIVE
-                Assume everything is lowercase unless you see otherwise, like a file or directory name
+	            LINUX IS CASE SENSITIVEAssume everything is lowercase unless you see otherwise, like a file or directory name
 	            Ls again, list the files
 	            You should see hello
     	        How do we read what it says?
@@ -54,46 +53,48 @@ Lesson 1
 	    Case Sensitive
  	    You have to specify a path like /root/Documents or go into the documents folder to see anything in there
    	    If you accidentally run something you arent supposed to use Ctrl+C end it
+
 Lesson 2
-●	File Permissions 
-○	You can only access a File if you have permission to see it
-○	As root, you can see or change anything you want
-○	Not that you should, but you have the ability to
-○	So how do you see file permissions
-●	Find the hello Mousepad again 
-○	Right click on it
-○	Click properties
-○	Click Permissions
-○	You can see the owner, the owner’s group, and others who can see the file
-■	It also specifies the access they have to that file (Read, Read & Write, etc.)
-●	Now check for file permissions in a Terminal
-○	Open a terminal
-○	Use ls --help
-■	The - is a switch that gives the command more specifics
-■	--help will pull up a menu that shows all of your options 
-■	There are two that will help in this case 
-●	-a : shows all files, even hidden ones
-○	Yes there are hidden folders, Windows has those too
-●	-l : long listing format meaning more information
-●	You can combine them both together so instead of using ls -l -a it’s ls -la
-■	This gives you the 
-●	file permissions
-●	the owner (creator) of the file
-●	the group to which that owner belongs to
-●	the date of creation
-●	Linux File Permissions Tutorial: How to View and Change Permission (phoenixnap.com)
-●	 
-○	The file type can be a -, d, or i: file, directory, or link
-○	Rwx means read, write, execute
-○	Those are the 3 permissions on Linux
-○	Look at hello
-○	What does it say for the permissions?
-■	-rw-r--r--
-■	- means it is a file
-■	The first rw- means the user can read and write or modify it, no execute
-■	R-- means the group can only read it
-■	R-- means others can only read it
-■	The next two words are the owner and group
+	File Permissions 
+		You can only access a File if you have permission to see it
+		As root, you can see or change anything you want
+		Not that you should, but you have the ability to
+		So how do you see file permissions
+	Find the hello Mousepad again 
+		Right click on it
+		Click properties
+		Click Permissions
+		You can see the owner, the owner’s group, and others who can see the file
+			It also specifies the access they have to that file (Read, Read & Write, etc.)
+	Now check for file permissions in a Terminal
+		Open a terminal
+		Use ls --help
+			The - is a switch that gives the command more specifics
+			--help will pull up a menu that shows all of your options 
+			There are two that will help in this case 
+				-a : shows all files, even hidden ones
+					Yes there are hidden folders, Windows has those too
+				-l : long listing format meaning more information
+				You can combine them both together so instead of using ls -l -a it’s ls -la
+			This gives you the 
+				file permissions
+				the owner (creator) of the file
+				the group to which that owner belongs to
+				the date of creation
+				Linux File Permissions Tutorial: How to View and Change Permission (phoenixnap.com)
+					the image didnt come through
+				The file type can be a -, d, or i: file, directory, or link
+				Rwx means read, write, execute
+				Those are the 3 permissions on Linux
+		Look at hello
+		What does it say for the permissions?
+			-rw-r--r--
+			- means it is a file
+			The first rw- means the user can read and write or modify it, no execute
+			R-- means the group can only read it
+			R-- means others can only read it
+			The next two words are the owner and group
+			
 Lesson 3
 ●	Changing file permissions
 ○	The command for that: chmod
