@@ -4,14 +4,22 @@ Lesson 1
 Log into Kali using Root and toor
 
 Explain what root is: like admin
-	Find Kali’s version of File Explorer and explore the files
-        Don’t open anything just look at file names
-    	See how far back you can get into the files
-    	Find Root file
-   	    What is in the root file?
-   	    Root is a user, like an admin. It’s the user with the most privileges. Just like in Windows, all of the files (Desktop, Documents, etc.) are under that user’s name. 
-    Find the Following:
-   	    Settings
+
+Find Kali’s version of File Explorer and explore the files
+
+Don’t open anything just look at file names
+
+See how far back you can get into the files
+
+Find Root file
+
+What is in the root file?
+
+Root is a user, like an admin. It’s the user with the most privileges. Just like in Windows, all of the files (Desktop, Documents, etc.) are under that user’s name. 
+
+Find the Following:
+
+Settings
   	    Desktop Background
             Change it to one of the pre-installed ones
  	    Mousepad
