@@ -1,7 +1,9 @@
 Beginners:
 Lesson 1
-	Log into Kali using Root and toor
-        Explain what root is: like admin
+
+Log into Kali using Root and toor
+
+Explain what root is: like admin
 	Find Kali’s version of File Explorer and explore the files
         Don’t open anything just look at file names
     	See how far back you can get into the files
