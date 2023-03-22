@@ -21,12 +21,14 @@ Type the following command
 
 "ls" is also known as list. This command lists all the files and folders that are in the current directory. 
 
---if theres a file in the area--
-you can see that there is a x.txt when running the ls command. That is a file. But how do we read the file? That's where cat comes in. 
+
+
+You can see that there is a x.txt when running the ls command. That is a file. But how do we read the file? That's where cat comes in. 
 The cat command allows you to read the content of the file.
 
 Type the following command
-cat x.txt
+
+    cat x.txt
 
 as you can see the terminal read off the file and displayed it.
 
