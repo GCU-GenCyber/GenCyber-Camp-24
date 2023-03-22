@@ -11,7 +11,7 @@ Type the following command
 
     echo Hello World
     
-You can see that the terminal responded with "Hello World"
+You can see that the terminal responded with "Hello World".
 The echo command relays whatever is after it back into the terminal. 
 
 
