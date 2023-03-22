@@ -13,6 +13,8 @@ These IP addresses can also be calculated into binary. Binary is the base langua
 
 Each place where there is a 1 means this slot is on, each on slot represents a number that is added to total the octet. 
 
+&nbsp;
+
 The octet positions are:
 
 128	64	32	16	8	 4	2	 1
