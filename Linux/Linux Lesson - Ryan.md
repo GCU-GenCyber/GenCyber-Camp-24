@@ -55,22 +55,11 @@ The > allowed us to create a file and put the results of the response into the f
 
 Type the following command
 
-    echo general kenobi >> hi.txt
+    echo General Kenobi >> hi.txt
     
     cat hi.txt
 
-we can see ‘hello there’ is still in the file. using >> adds the response from the terminal to the end of the file
-
-commands learned
-echo
-ls
-cat
-cd 
-
-& - run two commands at once
-&& - run the first command, then the next one
-'>' - redirect output to somewhere
-'>>' - appends the output instead of replace
+We can see ‘Hello there’ is still in the file. Using '>>' adds the response from the terminal to the end of the file.
 
 
 
