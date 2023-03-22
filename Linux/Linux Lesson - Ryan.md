@@ -8,9 +8,9 @@ Linux is a free and open-source operating system based on Unix, known for its cu
 Let's start simple
 
 Type the following command
-  
+'''
   echo Hello World
-
+'''
 You can see that the terminal responded with "Hello World"
 The echo command relays whatever is after it back into the terminal. 
 
