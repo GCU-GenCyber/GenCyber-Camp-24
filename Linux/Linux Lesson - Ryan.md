@@ -19,7 +19,7 @@ Type the following command
 
     ls
 
-ls is also known as list. This command lists all the files and folders that are around you. 
+"ls" is also known as list. This command lists all the files and folders that are in the current directory. 
 
 --if theres a file in the area--
 you can see that there is a x.txt when running the ls command. That is a file. But how do we read the file? That's where cat comes in. 
