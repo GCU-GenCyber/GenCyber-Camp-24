@@ -7,7 +7,7 @@ Each 'x' can be replaced with a number between 0-255.
 To calculate the total number of IPv4 addresses that are usable we do 255^4
 This totals to 4,228,250,625 usable IP addresses.
 
-These IP addresses can also be calculated into binary. Binary is the base language of a computer. This is the infamous 1011010101001001 language. Each X can be calculated into a binary form. The X is technically an octet, meaning 8 1’s or 0’s. So an IP address in binary form could look like:
+These IP addresses can also be calculated into binary. Binary is the base language of a computer. This is the infamous 1011010101001001 language. Each 'x' can be calculated into a binary form. The X is technically an octet, meaning 8 1’s or 0’s. So an IP address in binary form could look like:
 
 11000000.10101000.00101101.00000011
 
