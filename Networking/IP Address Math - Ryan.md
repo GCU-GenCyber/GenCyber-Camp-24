@@ -13,8 +13,6 @@ These IP addresses can also be calculated into binary. Binary is the base langua
 
 Each place where there is a 1 means this slot is on, each on slot represents a number that is added to total the octet. 
 
-&nbsp;
-
 The octet positions are:
 
 <table>
@@ -40,20 +38,34 @@ The octet positions are:
   </tr>
 </table>
 
-128|64|32|16|8|4|2|1
-
-0|0|0|0|0|0|0|0
-
 &nbsp;
 
 When one of these positions are on, we add it to the total.
 So the binary we worked with before, the first octet we had 11000000.
 If we put it in the chart it looks like this:
 
-
-128|64|32|16|8|4|2|1
-
-1|1|0|0|0|0|0|0
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
 
 So we need to add 128+64. That equals 192. So the first X of the IP address is 192.
 So if we look at the IP we had previously in total, the next set had 128+32+8 which equals 162.
@@ -71,29 +83,103 @@ So is 172 > 128? Yes? Then add a 1 to the 128 slot. Now is 172 > 128+64? No. So 
 
 RESULTS of 172:
 
-
-128|64|32|16|8|4|2|1
-
-1|0|1|0|1|1|0|0
-
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
 
 RESULTS of 16:
 
-128|64|32|16|8|4|2|1
-
-0|0|0|1|0|0|0|0
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>0</th>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
 
 RESULTS of 89:
 
-128|64|32|16|8|4|2|1
-
-0|1|0|1|1|0|0|1
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>0</th>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+</table>
 
 RESULTS of 142:
 
-128|64|32|16|8|4|2|1
-
-1|0|0|0|1|1|1|0
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+</table>
 
 END RESULT:
 
