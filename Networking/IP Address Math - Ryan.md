@@ -38,8 +38,6 @@ The octet positions are:
   </tr>
 </table>
 
-&nbsp;
-
 When one of these positions are on, we add it to the total.
 So the binary we worked with before, the first octet we had 11000000.
 If we put it in the chart it looks like this:
@@ -71,15 +69,13 @@ So we need to add 128+64. That equals 192. So the first X of the IP address is 1
 So if we look at the IP we had previously in total, the next set had 128+32+8 which equals 162.
 The next number is 32+8+4+1 which equals 45. The final octet is 2+1 which is 3. So the IP address in total is 192.168.45.3.
 
+&nbsp;
 
 Let’s take the IP address of 172.16.89.142
-
 
 In the first octet we have 172
 We can check to see if the addition of each section will be greater than the number.
 So is 172 > 128? Yes? Then add a 1 to the 128 slot. Now is 172 > 128+64? No. So we do not add a 1 to the second slot. We do this for each slot until we get to the result. Once we have hit the number, we can stop checking cause we don’t need to add any more to the octet. 
-
-&nbsp;
 
 RESULTS of 172:
 
