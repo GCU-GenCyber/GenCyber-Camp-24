@@ -50,11 +50,14 @@ Type the following command
     echo Hello there > hi.txt
 
 Read the hi.txt file
-the > allowed us to create a file and put the results of the response into the file. if the file already exists, its going to replace the content
+
+The > allowed us to create a file and put the results of the response into the file. If the file already exists, its going to replace the content of the original file.
 
 Type the following command
-echo general kenobi >> hi.txt
-cat hi.txt
+
+    echo general kenobi >> hi.txt
+    
+    cat hi.txt
 
 we can see ‘hello there’ is still in the file. using >> adds the response from the terminal to the end of the file
 
