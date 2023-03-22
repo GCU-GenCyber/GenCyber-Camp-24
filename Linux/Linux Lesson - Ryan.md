@@ -90,8 +90,8 @@ cd
 
 
 
- 
-INTERMEDIATE
+---- 
+### Medium
 TREE
 pwd
 whoami
