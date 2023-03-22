@@ -17,53 +17,37 @@ Type the following command
 
     ls
 
-"ls" is also known as list. This command lists all the files and folders that are in the current directory. 
+'ls' is also known as list. This command lists all the files and folders that are in the current directory. 
 
-
-
-You can see that there is a x.txt when running the ls command. That is a file. But how do we read the file? That's where cat comes in. 
-The cat command allows you to read the content of the file.
+If there are any files in the area, you can read them with the cat command. Cat will display the file in its entirety.
 
 Type the following command
 
-    cat x.txt
+    cat filename
+    
+As you can see the terminal read off the file and displayed it.
 
-as you can see the terminal read off the file and displayed it.
-
-if there's only folders
-You can see that the command responded with a bunch of folders, they are highlighted in blue. 
-if we want to move into a folder, we use the cd command
+If you find any folders afer using 'ls', you can move into them with the 'cd'. 
 
 Type the following command
-cd Documents/
 
-now type ls
-You can see that the response of ls after doing the cd command is different. Now you are listing what is in the documents folder
+    cd foldername/
 
-Now you can use the cat command to read the files that are in this folder. 
-
-if you want to go back to the previous folder you were in you use the .. with cd
+Once you are in the new folder, you can use the 'ls' command to view what is inside of this directory. If you want to go back to the previous folder you were in you use the '..' with 'cd'
 
 Type the following command
-cd ..
-then type 
-ls
 
-now you can see that the ls responded with the same results from when you first typed ls
+    cd ..
 
-let's turn it up a notch
+Then type 
 
-Type the following command
-echo Hello World && ls
+    ls
 
-you can see that the terminal responded with hello world then the content around you
-The && command is used between two commands
-This will run the first command then run the second command
-
-there is a similar command which is just one & symbol, this will run both commands at the same time
+Now you can see that the 'ls' responded with the same results from the first typed 'ls'
 
 Type the following command
-echo Hello there > hi.txt
+
+    echo Hello there > hi.txt
 
 Read the hi.txt file
 the > allowed us to create a file and put the results of the response into the file. if the file already exists, its going to replace the content
