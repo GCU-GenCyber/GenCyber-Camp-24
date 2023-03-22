@@ -1,7 +1,7 @@
-ENTRY
+# Linux Fundamentals
+### Beginner
 
---This is a draft--
-WHAT IS LINUX
+What is Linux?
 Linux is an operating system like Windows or Mac OS. This operating system is very light weight allowing for small tech devices to run it at full strength. 
 Debian and Ubuntu are some of the most popular types of Linux operating systems. Linux isn't like other operating systems. 
 Windows and Mac use what is called a GUI. Take the file explorer of windows for example. 
