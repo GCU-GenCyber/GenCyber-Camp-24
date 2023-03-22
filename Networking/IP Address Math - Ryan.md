@@ -17,6 +17,29 @@ Each place where there is a 1 means this slot is on, each on slot represents a n
 
 The octet positions are:
 
+<table>
+  <tr>
+    <th>128</th>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>0</th>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
 128|64|32|16|8|4|2|1
 
 0|0|0|0|0|0|0|0
