@@ -11,3 +11,9 @@ Here's some commands that will help.
     
 Now open the file with the editor of your choosing, for this lesson, I will be using gedit.
 
+For Linux, to use the python functions, you will need to add the following to the top of the file.
+
+    #!/bin/python3
+    
+Now we can begin writing code. 
+
