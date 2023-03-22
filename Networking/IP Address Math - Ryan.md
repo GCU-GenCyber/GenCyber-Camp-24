@@ -3,7 +3,7 @@ IP addresses are the internet versions of our physical addresses. It is formatte
 
 x.x.x.x
 
-Each X can be replaced with a number between 0-255.
+Each 'x' can be replaced with a number between 0-255.
 To calculate the total number of IPv4 addresses that are usable we do 255^4
 This totals to 4,228,250,625 usable IP addresses.
 
