@@ -17,3 +17,12 @@ For Linux, to use the python functions, you will need to add the following to th
     
 Now we can begin writing code. 
 
+Type the following into the file.
+    
+    print("Hello World!")
+
+Save the file and go back to the terminal. In the folder where the python file sits, execute it. You can do so by doing the following. 
+    
+    ./file.py
+    
+If everything was done correctly, you should see the terminal printed "Hello World!"
