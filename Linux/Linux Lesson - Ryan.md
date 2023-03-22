@@ -2,18 +2,14 @@
 ### Beginner
 
 What is Linux?
-Linux is an operating system like Windows or Mac OS. This operating system is very light weight allowing for small tech devices to run it at full strength. 
-Debian and Ubuntu are some of the most popular types of Linux operating systems. Linux isn't like other operating systems. 
-Windows and Mac use what is called a GUI. Take the file explorer of windows for example. 
-This shows you in a nice picture perfect format the files on your computer. Linux, however, uses what is called the terminal. 
-This is a text based version of the file explorer. This is where you will move around your computer making and reading files.
 
---get them into a command terminal shell--
+Linux is a free and open-source operating system based on Unix, known for its customizability, stability, and security. It is highly portable and can be run on a variety of hardware platforms. Linux is composed of the kernel, system libraries, and user-space utilities, with various distributions available. Popular distros include Ubuntu, Fedora, Debian, and CentOS. Linux can be used both in a terminal and a GUI. Learning the command line can be difficult, but these lessons will allow you to understand some of the basics of the Linux command line. 
 
 Let's start simple
 
 Type the following command
-echo Hello World
+  
+  echo Hello World
 
 You can see that the terminal responded with "Hello World"
 The echo command relays whatever is after it back into the terminal. 
