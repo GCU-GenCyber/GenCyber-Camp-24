@@ -65,10 +65,8 @@ We can see ‘Hello there’ is still in the file. Using '>>' adds the response 
 
 ---- 
 ### Medium
-Tree, pwd, whoami, privileges, owners, groups, su, whos root
-
-Now that you understand some of the basic maneuvers of the linux terminal, lets get to know the environment you're in. 
-You can think of the linux operating system as a tree. the root of the tree is the / folder. this folder holds every file in the system. 
+ 
+You can think of the linux operating system as a tree. The root of the tree is the / folder. This folder holds every file in the system. 
 Users will be in the home folder in the / folder. 
 
 Type the following command
