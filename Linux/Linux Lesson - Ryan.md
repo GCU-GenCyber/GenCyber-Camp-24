@@ -1,5 +1,5 @@
 # Linux Fundamentals
-### Beginner
+## Beginner
 
 What is Linux?
 Linux is an operating system like Windows or Mac OS. This operating system is very light weight allowing for small tech devices to run it at full strength. 
