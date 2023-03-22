@@ -3,7 +3,7 @@
 
 What is Linux?
 
-Linux is a free and open-source operating system based on Unix, known for its customizability, stability, and security. It is highly portable and can be run on a variety of hardware platforms. Linux is composed of the kernel, system libraries, and user-space utilities, with various distributions available. Popular distros include Ubuntu, Fedora, Debian, and CentOS. Linux can be used both in a terminal and a GUI. Learning the command line can be difficult, but these lessons will allow you to understand some of the basics of the Linux command line. 
+Linux is a free and open-source operating system based on Unix, known for its customizability, stability, and security. It is highly portable and can be run on a variety of hardware platforms. Linux is composed of the kernel, system libraries, and user-space utilities, with various distributions available. Popular distros include Ubuntu, Fedora, Debian, and CentOS. Linux can be used both in a terminal and a GUI. Learning the command line can be difficult, but these lessons will allow you to understand some of the basics. 
 
 Let's start simple
 
@@ -16,7 +16,8 @@ The echo command relays whatever is after it back into the terminal.
 
 
 Type the following command
-ls
+
+    ls
 
 ls is also known as list. This command lists all the files and folders that are around you. 
 
