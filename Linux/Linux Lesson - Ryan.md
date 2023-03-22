@@ -167,8 +167,9 @@ If you have the permission to run a certain command as sudo, it will ask for you
 You may not have permission to run the command with sudo, in that case, you would need to change to the root user and run the command again. 
 To change users, you type ‘su “user”’. This will ask for the password of the user you want to change to and then change you into that user. 
 
- 
-HARD
+----
+### HARD
+
 Now let's start with some more challenging commands. 
 
 Text editors. These will allow you to change the content of files in the command line. 
