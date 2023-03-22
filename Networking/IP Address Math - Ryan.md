@@ -1,7 +1,7 @@
 # IP Addresses
 IP addresses are the internet versions of our physical addresses. It is formatted as the following:
 
-X.X.X.X
+x.x.x.x
 
 Each X can be replaced with a number between 0-255.
 To calculate the total number of IPv4 addresses that are usable we do 255^4
