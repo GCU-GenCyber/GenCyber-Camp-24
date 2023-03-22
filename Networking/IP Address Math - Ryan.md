@@ -17,7 +17,7 @@ Each place where there is a 1 means this slot is on, each on slot represents a n
 
 The octet positions are:
 
-<u>128|64|32|16|8|4|2|1</u>
+128|64|32|16|8|4|2|1
 
 0|0|0|0|0|0|0|0
 
