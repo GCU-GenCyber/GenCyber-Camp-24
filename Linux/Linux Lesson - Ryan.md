@@ -101,7 +101,7 @@ The 'ls' command does not initially print the hidden files in a directory. Hidde
 This is commonly used with configuration files or bash files that the user does not necessarily need to use that often but still needs to be in their home folders. 
 
 The '-l' as I said before lists the files in long format. 
-    
+
     -rw-r--r--  1 user group   844 Mar 24 12:17 hi.txt
 
 This format shows the permissions of a file, owner of the file, group owner of the file, the size of the file, the date and time of last edit, and then the name of the file. 
