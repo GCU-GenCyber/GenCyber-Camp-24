@@ -66,36 +66,44 @@ We can see ‘Hello there’ is still in the file. Using '>>' adds the response 
 ---- 
 ### Medium
  
-You can think of the linux operating system as a tree. The root of the tree is the / folder. This folder holds every file in the system. 
-Users will be in the home folder in the / folder. 
+You can think of the Linux operating system as a tree. The root of the tree is the '/' folder. This folder holds every file in the system. 
+Users will be in the 'home/' folder in the '/' folder. 
 
 Type the following command
-pwd
+
+    pwd
 
 This command prints the working directory. This is the folder you are currently in. That is also called an absolute path. 
-Absolute paths allow you to call, move, execute, anywhere in the linux machine.
+Absolute paths allow you to call, move, execute, files anywhere in the Linux machine without needing to be near them.
 
 Type the following command
-cd /
 
-This brings you directly to the / folder. This is technically an absolute path. An absolute path is the direct path to a folder. 
-If you wanted to get to the absolute path of the toor user folder you would type.
-/home/toor
+    cd /
+
+This brings you directly to the '/' folder. This is technically an absolute path. An absolute path is the direct path to a folder. 
+If you wanted to get to the absolute path of a user named toor user folder you would type.
+
+    cd /home/toor
+
 You can be anywhere in the computer and go directly to this folder with this command. 
 
 Inside linux, commands can have multiple capabilities, this is done with the use of switches. 
 Type the following command
-ls -la
+
+    ls -la
 
 If you remember the ls command, it lists the files in this directory. However we added the ‘-la’ switch with it. 
-This can also be broken up into 2 switches ‘-l -a’. This would do the same thing. 
+This can also be broken up into 2 switches ‘-l -a’ but you can combine these if you wanted. 
 
-The -l is asking for the long format for the list command. The -a is asking for all files. 
+The '-l' is asking for the long format for the list command. The '-a' is asking for all files. 
 
-The ls command does not initially print the hidden files. Hidden files are files that start with a . at the start of the name. 
-This is commonly used with configuration files, bash files that the user does not necessarily need to use that often but still needs to be in their home folders. 
+The 'ls' command does not initially print the hidden files in a directory. Hidden files are files that start with a '.' at the start of the name. 
+This is commonly used with configuration files or bash files that the user does not necessarily need to use that often but still needs to be in their home folders. 
 
-The -l as I said before lists the files in long format. 
+The '-l' as I said before lists the files in long format. 
+    
+    -rw-r--r--  1 user group   844 Mar 24 12:17 hi.txt
+
 This format shows the permissions of a file, owner of the file, group owner of the file, the size of the file, the date and time of last edit, and then the name of the file. 
 The permissions of a file can be rather confusing. 
 The permissions are seen as 10 “-”
