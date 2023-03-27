@@ -26,3 +26,5 @@ Save the file and go back to the terminal. In the folder where the python file s
     ./file.py
     
 If everything was done correctly, you should see the terminal printed "Hello World!"
+
+Programming languages allow us to store information in what is called variables. There are many different types of variables and in some languages, we would need to declare what kind of variable we are using, but not in Python. In Python, the variable type will be determined by the content. 
