@@ -27,6 +27,8 @@ Save the file and go back to the terminal. In the folder where the python file s
     
 If everything was done correctly, you should see the terminal printed "Hello World!"
 
+---
+
 ### Variables 
 
 Programming languages allow us to store information in what is called variables. There are many different types of variables and in some languages, we would need to declare what kind of variable we are using, but not in Python. In Python, the variable type will be determined by the content. 
@@ -50,6 +52,8 @@ Type the following code
     
 When running this file, it prints out '30'. The code declares the two variables, 'x' and 'y', then adds them together and sets it to 'z'.
 
+---
+
 ### User inputs
 
 Python can take the input of the user to store in variables. This can be done by using 'input()'. Inside of the '()' you can put a message asking what you want the user to put in the variable. 
@@ -60,6 +64,8 @@ Type in the following code
     print(name)
 
 After executing this, you can see the terminal asks your name and waits for an input. You are now able to type in your name and can see the code relays back your name. 
+
+---
 
 ### Loops
 
@@ -93,6 +99,8 @@ Type the following code
         a += 1
 
 To use a condition statement including a variable, you will need to declare it first. This is needed for the loop to understand if the condition is 'True' or 'False'. Once it is determined, if the condition is 'True', it will start the loop. At the end of the code, you can see that there is a line that reads 'a += 1'. This is the python increment code. This will allow us to incriment the variable of 'a' each time it loops through. Without this, this loop would become infinite. If you run this code, you can see that it will print "Hello World!" ten times. 
+
+---
 
 ### Functions
 
