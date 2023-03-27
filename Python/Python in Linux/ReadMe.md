@@ -93,3 +93,7 @@ Type the following code
         a += 1
 
 To use a condition statement including a variable, you will need to declare it first. This is needed for the loop to understand if the condition is 'True' or 'False'. Once it is determined, if the condition is 'True', it will start the loop. At the end of the code, you can see that there is a line that reads 'a += 1'. This is the python increment code. This will allow us to incriment the variable of 'a' each time it loops through. Without this, this loop would become infinite. If you run this code, you can see that it will print "Hello World!" ten times. 
+
+### Functions
+
+### If statements
