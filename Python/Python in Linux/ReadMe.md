@@ -36,3 +36,11 @@ Type the following into the file
     print(x)
 
 We can see we got the same result as before, but the code was different. 
+
+Loops allow us to do a task over and over again as many times as we want. There are two different kinds of loops in Python, the 'for' loop and the 'while' loop. 
+The 'for' loop is used to iterate over a sequence or other iterable objects like a range. 
+
+    for variable in iterable:
+        # code
+
+The variable takes the value of each item in the iterable on each iteration of the loop.
