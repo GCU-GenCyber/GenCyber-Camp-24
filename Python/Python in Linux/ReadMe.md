@@ -39,6 +39,17 @@ Type the following into the file
 
 We can see we got the same result as before, but the code was different. 
 
+Type the following code
+
+    x = 10
+    y = 20
+    
+    x + y = z
+    
+    print(z)
+    
+When running this file, it prints out '30'. The code declares the two variables, 'x' and 'y', then adds them together and sets it to 'z'.
+
 ### Loops
 
 Loops allow us to do a task over and over again as many times as we want. There are two different kinds of loops in Python, the 'for' loop and the 'while' loop. 
