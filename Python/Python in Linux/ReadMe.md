@@ -59,6 +59,7 @@ After executing the file, we can see that ten "Hello World!"s were printed.
 The 'while' loop allows us to loop through a piece of code while a statement is true. 
 
     while condition:
+        # code
 
 The condition is a Boolean expression that is evaluated at the beginning of each iteration of the loop. The loop continues to execute as long as the condition is true.
 
