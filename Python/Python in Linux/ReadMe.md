@@ -50,6 +50,17 @@ Type the following code
     
 When running this file, it prints out '30'. The code declares the two variables, 'x' and 'y', then adds them together and sets it to 'z'.
 
+### User inputs
+
+Python can take the input of the user to store in variables. This can be done by using 'input()'. Inside of the '()' you can put a message asking what you want the user to put in the variable. 
+
+Type in the following code
+
+    name = input("What is your name: ")
+    print(name)
+
+After executing this, you can see the terminal asks your name and waits for an input. You are now able to type in your name and can see the code relays back your name. 
+
 ### Loops
 
 Loops allow us to do a task over and over again as many times as we want. There are two different kinds of loops in Python, the 'for' loop and the 'while' loop. 
