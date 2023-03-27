@@ -52,6 +52,8 @@ Type the following code
     
 When running this file, it prints out '30'. The code declares the two variables, 'x' and 'y', then adds them together and sets it to 'z'.
 
+Boolean
+
 ---
 
 ### User inputs
