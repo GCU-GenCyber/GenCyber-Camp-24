@@ -161,6 +161,22 @@ Here is an example
 	    print("x is greater than y")
 ---
 
+### Try and Except
+
+The try and except statements are used in Python to handle errors and exceptions that may occur during program execution.
+The try block is used to enclose the code that may potentially raise an exception. If an exception occurs, the program execution is transferred to the except block.
+The except block contains the code that is executed when an exception is raised in the try block.
+By using try and except blocks, you can prevent your program from crashing due to errors and handle them gracefully.
+It is considered good practice to be specific in the types of exceptions you catch, so that you can handle them in an appropriate manner.
+
+	try:
+		age = int(input("Enter your age: "))
+		print("Your age is", age)
+	except:
+		print("Invalid input")
+
+---
+
 ### Challenge 
 
 We can now try to put all of these components into one script and see what we can make. 
