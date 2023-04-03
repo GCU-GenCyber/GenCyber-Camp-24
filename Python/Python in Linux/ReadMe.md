@@ -218,7 +218,7 @@ Good, but a user can cause some errors if they put the wrong inputs in.
 	def get_number(prompt):
 		while 1=1:
 			try:
-    				number = int(input(prompt))
+				number = int(input(prompt))
 				return number
 			except ValueError:
 				print("Invalid input: please enter a numerical value.")
