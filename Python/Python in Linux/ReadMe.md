@@ -129,11 +129,71 @@ Functions can be used to make code more modular, organized, and reusable. They c
 
 Here is an example
 
-    def gotmilk:
+    def sayhi:
         print("Hello World")
     
-    gotmilk()
+    sayhi()
 
 ---
 
 ### If statements
+
+
+if statements in Python are used to test whether a condition is true or false, and to execute different blocks of code based on the result of the test. The basic syntax of an if statement is to use the keyword if, followed by the condition to be tested, and then a colon. The code to be executed if the condition is true is indented beneath the if statement.
+
+
+In addition to the basic if statement, there are several related statement types in Python, including else and elif statements. An else statement is used to specify code to be executed if the condition in the if statement is false. An elif statement (short for "else if") is used to test additional conditions if the initial if statement is false.
+
+
+if statements can be nested inside one another to create more complex tests and conditions. However, it's important to ensure that the indentation of each block of code is correct in order for the code to run properly.
+
+
+if statements are a fundamental part of programming in Python, and they are used extensively in many types of programs, from simple scripts to complex applications.
+
+Here is an example
+
+    x = 5
+    y = 7
+
+    if x < y:
+	    print("x is less than y")
+    else:
+	    print("x is greater than y")
+---
+
+### Challenge 
+
+We can now try to put all of these components into one script and see what we can make. 
+
+We are going to make a calculator. 
+I have found it best to start simple, then continue to add to the program until I have created what I wanted. This makes it easier to find issues as I am programming. 
+
+    x = 5
+    y = 2
+
+    print(x + y)
+
+There we go, simple calculator. Now we can add the user input.
+
+    x = int(input("Enter first value: "))
+    y = int(input("Enter second value: "))
+
+    print(x + y)
+    
+Now the user can add numbers together. Let's make it so the user can choose what they want to do with the numbers.
+
+    x = int(input("Enter first value: "))
+    z = input("What function do you want to do: ")
+    y = int(input("Enter second value: "))
+
+    if z == "+":
+	    print(x + y)
+    elif z == "-": 
+    	print(x - y)
+    elif z == "*": 
+    	print(x * y)
+    elif z == "/": 
+    	print(x / y)
+    else: 
+    	print("Unitentified function")
+        
