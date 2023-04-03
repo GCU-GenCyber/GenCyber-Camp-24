@@ -52,7 +52,17 @@ Type the following code
     
 When running this file, it prints out '30'. The code declares the two variables, 'x' and 'y', then adds them together and sets it to 'z'.
 
-Boolean
+#### Boolean
+
+Boolean values in Python are True and False, representing the truth values of logical expressions. They can be used in conditional statements, loops, and logical operators such as and, or, and not. Python also has a concept of "truthiness" that allows non-Boolean values to be evaluated as Booleans. Any value can be evaluated as a Boolean value, and if it's considered "truthy", it's treated as True; otherwise, it's treated as False. This concept of "truthiness" can be helpful when working with values that aren't explicitly Boolean.
+
+    x = 5
+    y = 10
+    z = x < y
+
+    print(z)
+
+The 'z' variable is boolean.
 
 ---
 
@@ -105,5 +115,25 @@ To use a condition statement including a variable, you will need to declare it f
 ---
 
 ### Functions
+
+Functions in Python are blocks of code that can be called repeatedly, with different inputs, to perform a specific task. Functions are defined using the def keyword, followed by the function name, any necessary arguments, and a colon. The body of the function is indented and contains the code to be executed when the function is called.
+
+
+Functions can take arguments, which are values passed to the function to be used in the code block. Arguments can be required or optional, and they can have default values.
+
+
+Functions can also return values, which are the results of the computations performed within the function. The return keyword is used to specify the value to be returned from the function.
+
+
+Functions can be used to make code more modular, organized, and reusable. They can also help to improve code readability and reduce the potential for errors.
+
+Here is an example
+
+    def gotmilk:
+        print("Hello World")
+    
+    gotmilk()
+
+---
 
 ### If statements
