@@ -237,3 +237,35 @@ Good, but a user can cause some errors if they put the wrong inputs in.
 		print(x / y)
 	else: 
 		print("Unidentified function")
+
+Now we are going to add some final touches to it, these will make it easier for the user to read the results and understand how to use the program a bit better. 
+
+	def get_number(prompt):
+	while 1==1:
+		try:
+			number = int(input(prompt))
+			return number
+		except ValueError:
+			print("Invalid input: please enter a numerical value.")
+
+	x = get_number("Enter first value: ")
+	z = input("What function do you want to do(+,-,*,/): ")
+	y = get_number("Enter second value: ")
+
+	if z == "+":
+		print("\n")
+		print("The result of the equation is" , x + y)
+	elif z == "-": 
+		print("\n")
+		print("The result of the equation is" , x - y)
+	elif z == "*": 
+		print("\n")
+		print("The result of the equation is" , x * y)
+	elif z == "/": 
+		print("\n")
+		print("The result of the equation is" , x / y)
+	else:
+		print("\n")
+		print("Unidentified function")
+		
+There you go, you have created a simple calculator in Python. 
