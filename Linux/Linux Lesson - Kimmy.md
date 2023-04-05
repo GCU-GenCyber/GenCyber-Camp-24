@@ -1,66 +1,106 @@
-# Beginners: Lesson 1
+# Kimmy's Linux Lessons
 
-Log into Kali using Root and toor
-Explain what root is: like admin
+## Beginners: Lesson 1
+### Root and File System
 
-Find Kali’s version of File Explorer and explore the files
+Log into Kali:
+```
+User: toor
+Pass: root
+```
 
-Don’t open anything just look at file names
+It is important to know that in Linux **root** is similar to the Windows' **Administrator**. Those privileges are not given to every user, and we will go over privileges and permissions later. 
 
-See how far back you can get into the files
+Right now, we are just going to learn how to look at Linux's file system. Find Kali’s version of File Explorer and explore the files. Don’t open anything, just look at file names and see how far back you can get into the files. Windows starts at the C drive, but where does Linux start?
 
-Find Root file
+Find the Root directory. What is in the root directory? 
+(A directory is a folder that contains files)
 
-What is in the root file?
+As stated before, root is a user, like an admin. It’s the user with the most privileges. Just like in Windows, all of the files belonging to the user (Desktop, Documents, etc.) are under that user’s name. Take a minute to explore the file system and see if you can find any differences or similarities between Linux and Windows. 
 
-Root is a user, like an admin. It’s the user with the most privileges. Just like in Windows, all of the files (Desktop, Documents, etc.) are under that user’s name. 
 
-Find the Following:
+### Settings
 
-Settings
-  	    Desktop Background
-            Change it to one of the pre-installed ones
- 	    Mousepad
-	        Open
-     	    Write hello world!
-            Name it hello and Save it to your Documents folder
-            Exit
-    Explore Kali
-        What happens when you click on the tools?
-            Most of them pull up a terminal
-	        Kali is mostly used via a terminal
-	        Windows has more GUI than Linux
-	            What’s a GUI?
-       	        Graphical User Interface Examples (conceptdraw.com)
-       	        All the nice windows that pop up when you click on an application
-      	        When you click on the file system, that’s a gui
-       	        You have visuals to see what you’re doing
-       	        Since Linux is mostly Terminal, how do we go through the file system without a GUI?
-	Teach how to navigate that same file system but in a terminal
-        Terminals don’t work like google
-        They use commands to work
-        Commands to Tech for File Navigation: 
-	        Pwd: tells you where you are
-	            Remember how the user’s files are under the users name? We can still find those files and see them in the terminal
-	        ls : to see the files of the path you are in
-	            Go over file path if needed
-	            All of the things in blue are directories
-	            Those are the other folders that we can move to
-	            What folder is the hello in? Documents
-	            How do we get there?
-	        Cd: change directory
-	            cd Documents
-	            LINUX IS CASE SENSITIVEAssume everything is lowercase unless you see otherwise, like a file or directory name
-	            Ls again, list the files
-	            You should see hello
-    	        How do we read what it says?
-	        Cat: will read the file
-	            Do cat hello
-	            Congrats you did it!
-    Extra Linux Rules:
-	    Case Sensitive
- 	    You have to specify a path like /root/Documents or go into the documents folder to see anything in there
-   	    If you accidentally run something you arent supposed to use Ctrl+C end it
+Find the Following Settings and Applications:
+
+Desktop Background
+- Change it to one of the pre-installed ones
+Mousepad (Application)
+- Open
+- Write hello world!
+- Name it hello and Save it to your Documents folder
+- Exit 
+
+### Terminal Usage vs. GUI
+Continue to Explore Kali
+What happens when you click on the tools? Well, most of them pull up what is called a terminal. Kali is mostly used via a terminal. Windows uses more GUI than Linux. What’s a GUI?
+- Graphical User Interface
+- all the nice windows that pop up when you click on an application
+
+For example, when you click on the file system application, that’s a GUI. You have visuals to see what you’re doingSince Linux is mostly used via a terminal, how do we go through the file system without a GUI?
+- Open up the terminal application on your machines.
+- It is important to note, terminals don’t work like google. They are extremely case and spelling sensitive. 
+- You need to know commands to be able to use the terminal.
+
+### Commands for File Navigation
+- pwd: tells you where you are
+	- Remember how the user’s files are under the users name? We can still find those files and see them in the terminal
+
+- ls : to see the files and folders that are in your current location (or file path)
+	- All of the things in blue are directories
+	- Those are the other folders that we can move to
+ 
+__Remember the mousepad file you made earlier? What folder is the hello in? How do we get there to read it?__
+- cd: change directory
+	- cd Documents
+	- ***LINUX IS CASE SENSITIVE!!*** 
+	- Assume everything is lowercase unless you see otherwise, like a file or directory name
+
+Use ls to list the files in your current directory, which should be documents. You should see the hello file you created. But, how do we read what it says?
+- cat: will read the file
+	- Do "cat hello" in the terminal
+
+Now you know how to navigate through a file system. Here are some more examples of basic linux commands that are extremely helpful. 
+
+mkdir : makes a directory
+```
+mkdir Files : makes a directory names Files 
+```
+rm : removes the file named after the command
+```
+rm hello : deletes the file named hello (if you're in its directory) 
+```
+touch : creates a file
+```
+touch hello : creates a file in your current directory named hello 
+```
+--help or -h : pulls up a help page for whatever application you ask
+``` 
+hydra --help : help page for a password bruteforcer called Hydra
+```
+man : pulls up manual/manpages for a tool
+```
+man hydra : manual for a password bruteforcer called Hydra
+```
+cp : copies a file to a different file path
+```
+cp hello /root/Documents : done by using "cp filename filepath"
+```
+mv : to rename or move a file
+```
+mv hello /root/Documents : to move, done by using "mv filename filepath"  
+mv hello hello1 : to remane, done by using "mv currentfilename newfilename"
+```
+find : to find a file in your computer
+```
+find / -name hello.txt : done by "find [where to start searching from] [options] [what to find]"
+```
+
+
+### Extra Linux Rules:
+- Case Sensitive
+ - You have to specify the path of where you want to go like /root/Documents or go into the documents folder to see anything in there
+ - If you accidentally run something you aren't supposed to or want to stop, use __Ctrl+C__ end it
 
 Lesson 2
 	File Permissions 
@@ -136,7 +176,7 @@ Lesson 3
 ○	chmod 644 hello
 ●	At some point cd . and cd ..
 ○	Explain what . and .. is
-●	More commands: mkdir, rm, touch, --help and man (manual), cp filename filepath, mv to rename or mv filename filepath, and locate 
+●
 Intermediate:
 Lesson 1
 ●	echo and cat
