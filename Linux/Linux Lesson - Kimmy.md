@@ -1,5 +1,3 @@
-# Kimmy's Linux Lessons
-
 ## Beginners: Lesson 1
 ### Root and File System
 
@@ -102,34 +100,37 @@ find / -name hello.txt : done by "find [where to start searching from] [options]
  - You have to specify the path of where you want to go like /root/Documents or go into the documents folder to see anything in there
  - If you accidentally run something you aren't supposed to or want to stop, use __Ctrl+C__ end it
 
-Lesson 2
-	File Permissions 
-		You can only access a File if you have permission to see it
-		As root, you can see or change anything you want
-		Not that you should, but you have the ability to
-		So how do you see file permissions
-	Find the hello Mousepad again 
-		Right click on it
-		Click properties
-		Click Permissions
-		You can see the owner, the owner’s group, and others who can see the file
-			It also specifies the access they have to that file (Read, Read & Write, etc.)
-	Now check for file permissions in a Terminal
-		Open a terminal
-		Use ls --help
-			The - is a switch that gives the command more specifics
-			--help will pull up a menu that shows all of your options 
-			There are two that will help in this case 
-				-a : shows all files, even hidden ones
-					Yes there are hidden folders, Windows has those too
-				-l : long listing format meaning more information
-				You can combine them both together so instead of using ls -l -a it’s ls -la
-			This gives you the 
-				file permissions
-				the owner (creator) of the file
-				the group to which that owner belongs to
-				the date of creation
-				Linux File Permissions Tutorial: How to View and Change Permission (phoenixnap.com)
+## Beginners: Lesson 2
+- File Permissions 
+	- You can only access a File if you have permission to see it
+	- As root, you can see or change anything you want
+	- Not that you should, but you have the ability to
+	- So how do you see file permissions
+
+Find the hello.txt you created with Mousepad 
+- Right click on it
+- Click properties
+- Click Permissions
+You can see the owner, the owner’s group, and others who can see the file. It also specifies the access they have to that file (Read, Read & Write, etc.)
+
+Now check for file permissions in a Terminal
+- Open a terminal
+- Enter 
+```
+ls --help
+```
+The - is a switch (or an option) that gives the command more specifics. There are two options that will help in this case. 
+- a : shows all files, even hidden ones (Yes there are hidden folders, Windows has those too.)
+- l : long listing format meaning more information
+You can combine them both together so instead of using ls -l -a it’s ls -la
+
+This gives you the 
+- file permissions
+- the owner (creator) of the file
+- the group to which that owner belongs to
+- the date of creation
+				
+### Linux File Permissions Tutorial: How to View and Change Permission 
 					the image didnt come through
 				The file type can be a -, d, or i: file, directory, or link
 				Rwx means read, write, execute
