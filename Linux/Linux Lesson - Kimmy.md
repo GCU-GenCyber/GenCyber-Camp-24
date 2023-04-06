@@ -95,7 +95,7 @@ find / -name hello.txt : done by "find [where to start searching from] [options]
 ```
 
 
-### Extra Linux Rules:
+### Extra Linux Rules
 - Case Sensitive
  - You have to specify the path of where you want to go like /root/Documents or go into the documents folder to see anything in there
  - If you accidentally run something you aren't supposed to or want to stop, use __Ctrl+C__ end it
