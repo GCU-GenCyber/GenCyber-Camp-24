@@ -131,8 +131,9 @@ This gives you the
 - the date of creation
 				
 ### Linux File Permissions Tutorial: How to View and Change Permission 
-					the image didnt come through
-				The file type can be a -, d, or i: file, directory, or link
+![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/BasicPermissions.png)
+
+The file type can be a -, d, or i: file, directory, or link
 				Rwx means read, write, execute
 				Those are the 3 permissions on Linux
 		Look at hello
