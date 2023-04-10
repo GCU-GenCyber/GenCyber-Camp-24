@@ -62,38 +62,57 @@ Now you know how to navigate through a file system. Here are some more examples 
 
 mkdir : makes a directory
 ```
-mkdir Files : makes a directory names Files 
+mkdir Files
 ```
+<sub>This command will make a directory named Files in Your Current Location</sub>
+
 rm : removes the file named after the command
 ```
-rm hello : deletes the file named hello (if you're in its directory) 
+rm hello 
 ```
+<sub>This command deletes the file we created named hello (if you're in its current location)</sub>
+
 touch : creates a file
 ```
-touch hello : creates a file in your current directory named hello 
+touch hello 
 ```
+<sub>This command creates a file in your current directory named hello</sub>
+
 --help or -h : pulls up a help page for whatever application you ask
 ``` 
-hydra --help : help page for a password bruteforcer called Hydra
+hydra --help 
 ```
+<sub>This command will pull up a help page for a password bruteforcer called Hydra</sub>
+
 man : pulls up manual/manpages for a tool
 ```
-man hydra : manual for a password bruteforcer called Hydra
+man hydra
 ```
+<sub>This command will show a manual for a password bruteforcer called Hydra</sub>
+
 cp : copies a file to a different file path
 ```
-cp hello /root/Documents : done by using "cp filename filepath"
+cp hello /root/Documents 
 ```
-mv : to rename or move a file
+<sub>This command will move the file named hello to the specified path. The syntax is as follows "cp [FILENAME] [FILEPATH]"</sub>
+
+mv : to move a file
 ```
-mv hello /root/Documents : to move, done by using "mv filename filepath"  
-mv hello hello1 : to remane, done by using "mv currentfilename newfilename"
+mv hello /root/Documents
 ```
+<sub>This command will move the file hello into the specified path. It is similar to cutting and pasting. The syntax is as follows "mv [FILENAME] [FILEPATH]"</sub>
+
+mv: to rename a file
+```
+mv hello hello1 
+```
+<sub>This command renames a file. The syntax is as follows "mv [CURRENTFILENAME] [NEWFILENAME]"</sub>
+
 find : to find a file in your computer
 ```
-find / -name hello.txt : done by "find [where to start searching from] [options] [what to find]"
+find / -name hello.txt 
 ```
-
+<sub>This command will locate a file for you. The syntax is as follows "find [where to start searching from] [options] [what to find]"
 
 ### Extra Linux Rules
 - Case Sensitive
