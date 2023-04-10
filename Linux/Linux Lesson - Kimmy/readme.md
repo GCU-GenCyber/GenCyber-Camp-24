@@ -190,7 +190,7 @@ The file type can be a -, d, or i: file, directory, or link
 - Make the members allowed to read
 - Makes others allowed to read
 
-5 Min Later
+# 5 Min Later
 - Should be chmod u=rw,g=r,o=r hello
 - Instead of letters, the octal format represents privileges with numbers:
 - r(ead) has the value of 4
@@ -228,7 +228,7 @@ As you have to define permission for each category (user, group, owner), the com
 - ping google.com or 8.8.8.8
 - whoami
 
-###Intermeadiate: Lesson 2
+### Intermeadiate: Lesson 2
 - What does rm -rf / do?
 	- Removes with all directories and their contents with force
 	- DONT DO IT
@@ -240,6 +240,7 @@ Go back to the Documents folder
 - Pwd and tell me where you are
 - /root/Downloads : / means look at the very tippy top of the directory and follow the path from there
 - Don’t get root directory confused with the root user, those are two different things
+- 
 Open /bin (Binaries)
 - See anything familiar?
 - It holds the executables of a lot of commands
@@ -248,19 +249,19 @@ Open /bin (Binaries)
 - Linux Directory Structure Explained for Beginners (linuxhandbook.com)
  
 ### Advanced: Tools
-Networking: 
+# Networking: 
 - Ifconfig
 - netdiscover
 - Nmap
 - Wireshark
-OSINT:
+# OSINT:
 - Recon-ng
 - Google Dorking
-Cryptography/Hashing:
+# Cryptography/Hashing:
 - CyberChef
 - Learn how to hash
 - Then hash cat or jtr
-Digital Forensics:
+# Digital Forensics:
 - Autopsy
 - FTK Imager
 - CSI Linux
