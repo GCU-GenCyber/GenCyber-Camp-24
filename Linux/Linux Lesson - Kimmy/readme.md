@@ -1,5 +1,5 @@
-## Beginners: Lesson 1
-### Root and File System
+# Beginners: Lesson 1
+## Root and File System
 
 Log into Kali:
 ```
@@ -17,7 +17,7 @@ Find the Root directory. What is in the root directory?
 As stated before, root is a user, like an admin. It’s the user with the most privileges. Just like in Windows, all of the files belonging to the user (Desktop, Documents, etc.) are under that user’s name. Take a minute to explore the file system and see if you can find any differences or similarities between Linux and Windows. 
 
 
-### Settings
+## Settings
 
 Find the Following Settings and Applications:
 
@@ -29,7 +29,8 @@ Mousepad (Application)
 - Name it hello and Save it to your Documents folder
 - Exit 
 
-### Terminal Usage vs. GUI
+## Terminal Usage vs. GUI
+
 Continue to Explore Kali
 What happens when you click on the tools? Well, most of them pull up what is called a terminal. Kali is mostly used via a terminal. Windows uses more GUI than Linux. What’s a GUI?
 - Graphical User Interface
@@ -40,7 +41,8 @@ For example, when you click on the file system application, that’s a GUI. You 
 - It is important to note, terminals don’t work like google. They are extremely case and spelling sensitive. 
 - You need to know commands to be able to use the terminal.
 
-### Commands for File Navigation
+## Commands for File Navigation
+
 - pwd: tells you where you are
 	- Remember how the user’s files are under the users name? We can still find those files and see them in the terminal
 
@@ -59,6 +61,7 @@ Use ls to list the files in your current directory, which should be documents. Y
 	- Do "cat hello" in the terminal
 
 Now you know how to navigate through a file system. Here are some more examples of basic linux commands that are extremely helpful. 
+
 
 mkdir : makes a directory
 ```
@@ -128,7 +131,7 @@ find / -name hello.txt
  - You have to specify the path of where you want to go like /root/Documents or go into the documents folder to see anything in there
  - If you accidentally run something you aren't supposed to or want to stop, use __Ctrl+C__ end it
 
-## Beginners: Lesson 2
+# Beginners: Lesson 2
 - File Permissions 
 	- You can only access a File if you have permission to see it
 	- As root, you can see or change anything you want
@@ -158,7 +161,7 @@ This gives you the
 - the group to which that owner belongs to
 - the date of creation
 				
-### Linux File Permissions Tutorial: How to View and Change Permission 
+## Linux File Permissions Tutorial: How to View and Change Permission 
 ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/BasicPermissions.png)
 
 The file type can be a -, d, or i: file, directory, or link
@@ -173,7 +176,7 @@ The file type can be a -, d, or i: file, directory, or link
 			R-- means others can only read it
 			The next two words are the owner and group
 			
-### Beginners: Lesson 3
+# Beginners: Lesson 3
 - Changing file permissions
 - The command for that: chmod
 - You type chmod [permission] [file_name]
@@ -190,7 +193,7 @@ The file type can be a -, d, or i: file, directory, or link
 - Make the members allowed to read
 - Makes others allowed to read
 
-# 5 Min Later
+## 5 Min Later
 - Should be chmod u=rw,g=r,o=r hello
 - Instead of letters, the octal format represents privileges with numbers:
 - r(ead) has the value of 4
@@ -210,7 +213,7 @@ As you have to define permission for each category (user, group, owner), the com
 - At some point cd . and cd ..
 - Explain what . and .. is
 
-### Intermediate:Lesson 1
+# Intermediate: Lesson 1
 - echo and cat 
 - nano hello.txt
 - sudo apt update
@@ -228,7 +231,7 @@ As you have to define permission for each category (user, group, owner), the com
 - ping google.com or 8.8.8.8
 - whoami
 
-### Intermeadiate: Lesson 2
+# Intermeadiate: Lesson 2
 - What does rm -rf / do?
 	- Removes with all directories and their contents with force
 	- DONT DO IT
@@ -248,20 +251,20 @@ Open /bin (Binaries)
 - This means that commands are just executables that we are calling to 
 - Linux Directory Structure Explained for Beginners (linuxhandbook.com)
  
-### Advanced: Tools
-# Networking: 
+# Advanced: Tools
+### Networking: 
 - Ifconfig
 - netdiscover
 - Nmap
 - Wireshark
-# OSINT:
+### OSINT:
 - Recon-ng
 - Google Dorking
-# Cryptography/Hashing:
+### Cryptography/Hashing:
 - CyberChef
 - Learn how to hash
 - Then hash cat or jtr
-# Digital Forensics:
+### Digital Forensics:
 - Autopsy
 - FTK Imager
 - CSI Linux
