@@ -167,12 +167,13 @@ This gives you the
 The file type will appear as a **-** , **d**, or **i** : file, directory, or link
 
 As seen in the picture, R W X means read, write, and execute.Those are the 3 permissions on Linux. Now, take a look at the hello file that we created. What does it say for the permissions?
-	-rw-r--r--
+	- rw-r--r--
 	- **-** means it is a file
+	
 The first rw- means the user can read and write or modify it, no execute
-			R-- means the group can only read it
-			R-- means others can only read it
-			The next two words are the owner and group
+	- r-- means the group can only read it
+	- r-- means others can only read it
+	- The next two words are the owner and group
 			
 # Beginners: Lesson 3
 - Changing file permissions
