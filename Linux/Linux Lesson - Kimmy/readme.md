@@ -255,7 +255,7 @@ Now, what if you get lost and you just want to get back to your home directory w
 ```
 cd ~
 ```
-Here are some more helpful commands in Linux. 
+### Here are some more helpful commands in Linux. 
 
 Echo used to display lines of text or strings. It is mostly used in shell scripts so that when the script is ran, it repeats what is entered. To print text or a string on the terminal, use the syntax: echo [string] like so. 
 ```
@@ -263,21 +263,55 @@ echo "hello world!"
 ```
 <sub> This will repeat the line you just entered. The example above did not use an option, but the normal syntax is as follows: echo [option] [string] </sub>
 
-- nano hello.txt
-- sudo apt update
-	- Sudo means super user do. It runs the command with super user privileges. This would work without sudo if you were logged in as root as well. This will only work if that user trying to use sudo has been given sudo privileges. 
-- df 
-	- Shows available disk spaces
-	- Can use -m to show in megabytes
-- zip and unzip
-	- zip and unzip hello
-- chmod 
-	- You can add individual permissions by using +r, +w, or +x to a file
-- hostname
-	- Prints host name
-	- hostname -i gives you your ip address
-- ping google.com or 8.8.8.8
-- whoami
+Nano is a text editor. You can use it to create a text file or to edit one. If you enter a file name that does not currently exist in that directory, it will create that file for you. Navigate to the hello file and enter the following. 
+```
+nano hello
+```
+You should always make sure your machines are up to date. To do this, you must have sudo privileges. If you do, enter this command to update your system. 
+```
+sudo apt update
+```
+As said before, sudo means super user do. It runs the command with super user privileges. This would work without sudo if you were logged in as root as well. This will only work if that user trying to use sudo has been given sudo privileges. 
+
+You can use a command to show how much disk space you have available. 
+```
+df 
+```
+<sub> This shows available disk space in kilobytes, but you can use -m as a n option to show df in megabytes </sub>
+
+On Windows, you can zip and upzip files by right clicking and choosing to compress or extract. On Linux, you can do that in a terminal. You can enter: 
+```
+zip hello
+```
+and then to unzip:
+```
+unzip hello
+```
+To view the current hostname that you are logged in as, you can enter the following: 
+```
+hostname
+```
+<sub> This will print the host name, which is the name of the computer. You could also do "hostname -i" which gives you your ip address</sub>
+
+Another way to view your IP address is by entering:
+```
+ifconfig
+```
+<sub> This is similar to ipconfig in cmd for Windows. </sub>
+
+The command to ping a website is the same as Windows. 
+```
+ping google.com
+```
+or you can use: 
+```
+ping 8.8.8.8
+```
+To view the current user that you are logged in as, you can use the following command. 
+```
+whoami
+```
+<sub> This will print the name of the current logged in user. </sub>
 
 # Intermeadiate: Lesson 2
 - What does rm -rf / do?
@@ -290,10 +324,9 @@ echo "hello world!"
 Go back to the Documents folder
 - Pwd and tell me where you are
 - /root/Downloads : / means look at the very tippy top of the directory and follow the path from there
-- Don’t get root directory confused with the root user, those are two different things
-- 
-Open /bin (Binaries)
-- See anything familiar?
+- Don’t get root directory confused with the root user, those are two different things. 
+
+Navigate to /bin (Binaries). Do you see anything familiar?
 - It holds the executables of a lot of commands
 - It has ls, chmod, and more
 - This means that commands are just executables that we are calling to 
