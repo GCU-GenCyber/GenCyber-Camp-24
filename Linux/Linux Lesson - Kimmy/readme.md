@@ -255,8 +255,14 @@ Now, what if you get lost and you just want to get back to your home directory w
 ```
 cd ~
 ```
+Here are some more helpful commands in Linux. 
 
-- echo and cat 
+Echo used to display lines of text or strings. It is mostly used in shell scripts so that when the script is ran, it repeats what is entered. To print text or a string on the terminal, use the syntax: echo [string] like so. 
+```
+echo "hello world!"
+```
+<sub> This will repeat the line you just entered. The example above did not use an option, but the normal syntax is as follows: echo [option] [string] </sub>
+
 - nano hello.txt
 - sudo apt update
 	- Sudo means super user do. It runs the command with super user privileges. This would work without sudo if you were logged in as root as well. This will only work if that user trying to use sudo has been given sudo privileges. 
