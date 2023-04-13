@@ -164,14 +164,12 @@ This gives you the
 ## Linux File Permissions Tutorial: How to View and Change Permission 
 ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/BasicPermissions.png)
 
-The file type can be a -, d, or i: file, directory, or link
-				Rwx means read, write, execute
-				Those are the 3 permissions on Linux
-		Look at hello
-		What does it say for the permissions?
-			-rw-r--r--
-			- means it is a file
-			The first rw- means the user can read and write or modify it, no execute
+The file type will appear as a **-** , **d**, or **i** : file, directory, or link
+
+As seen in the picture, R W X means read, write, and execute.Those are the 3 permissions on Linux. Now, take a look at the hello file that we created. What does it say for the permissions?
+	-rw-r--r--
+	- **-** means it is a file
+The first rw- means the user can read and write or modify it, no execute
 			R-- means the group can only read it
 			R-- means others can only read it
 			The next two words are the owner and group
