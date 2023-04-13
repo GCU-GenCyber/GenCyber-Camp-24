@@ -234,7 +234,7 @@ As you have to define permission for each category (user, group, owner), the com
 	- 4 would be read for others
 	
 Here is a table that shows how the numbers work to give permissions. 
-
+![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/chmod.png)
 
 # Intermediate: Lesson 1
 - At some point cd . and cd ..
