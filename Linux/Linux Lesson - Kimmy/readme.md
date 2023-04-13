@@ -263,6 +263,9 @@ echo "hello world!"
 ```
 <sub> This will repeat the line you just entered. The example above did not use an option, but the normal syntax is as follows: echo [option] [string] </sub>
 
+You can also write echo commands into files like so. 
+![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/IntermeadiateLesson1.png)
+
 Nano is a text editor. You can use it to create a text file or to edit one. If you enter a file name that does not currently exist in that directory, it will create that file for you. Navigate to the hello file and enter the following. 
 ```
 nano hello
@@ -320,6 +323,8 @@ whoami
 - But what is /?
 	- / means the root directory
 	- Which is everything, it holds all the files and directories
+	
+ ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/IntermeadiateLesson2.png)
  
 Go back to the Documents folder
 - Pwd and tell me where you are
@@ -331,6 +336,8 @@ Navigate to /bin (Binaries). Do you see anything familiar?
 - It has ls, chmod, and more
 - This means that commands are just executables that we are calling to 
 - Linux Directory Structure Explained for Beginners (linuxhandbook.com)
+
+![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/IntermeadiateLesson3.png)
  
 # Advanced: Tools
 ### Networking: 
