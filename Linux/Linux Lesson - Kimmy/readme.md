@@ -242,9 +242,20 @@ Here is a table that shows how the numbers work to give permissions.
 
 ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/chmod.png)
 
-# Intermediate: Lesson 1
-- At some point cd . and cd ..
-- Explain what . and .. is
+# Intermediate: Lesson 1 - More Commands!
+Remember the command cd? What does it do? Well what if you want to change into a directory that isn't in your current directory. But, it is in your path. For example, let's say you're in /home/toor1/Documents. There is a command you can use to go back into toor1, also known as the parent directory because it is the one immeadiately above your current directory. To go back one directory. The command is as follows: 
+```
+cd ..
+```
+If you want to go to the very start of the computer, which is known as the root directory, the command is as follows: 
+```
+cd /
+```
+Now, what if you get lost and you just want to get back to your home directory where your Downloads, Desktops, Documents, etc. are? There is a command for that too. Wherever you are in the terminal, if you type the following command, it will take you back home. 
+```
+cd ~
+```
+
 - echo and cat 
 - nano hello.txt
 - sudo apt update
