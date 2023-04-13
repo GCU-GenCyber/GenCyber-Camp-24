@@ -1,4 +1,4 @@
-# Beginners: Lesson 1
+# Beginners: Lesson 1 - Linux 101
 ## Root and File System
 
 Log into Kali:
@@ -131,7 +131,7 @@ find / -name hello.txt
  - You have to specify the path of where you want to go like /root/Documents or go into the documents folder to see anything in there
  - If you accidentally run something you aren't supposed to or want to stop, use __Ctrl+C__ end it
 
-# Beginners: Lesson 2
+# Beginners: Lesson 2 - How to View Permissions
 - File Permissions 
 	- You can only access a File if you have permission to see it
 	- As root, you can see or change anything you want
@@ -161,7 +161,7 @@ This gives you the
 - the group to which that owner belongs to
 - the date of creation
 				
-## Linux File Permissions Tutorial: How to View and Change Permission 
+# Beginners: Lesson 3 - How to View and Change Permissions
 ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/BasicPermissions.png)
 
 The file type will appear as a **-** , **d**, or **i** : file, directory, or link
