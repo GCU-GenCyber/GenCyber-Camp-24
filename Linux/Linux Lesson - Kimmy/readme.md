@@ -212,15 +212,20 @@ Try and use the chmod commands to set the permissions back to normal
 - Make the members allowed to read
 - Makes others allowed to read
 
-### 5 Min Later
-- Should be chmod u=rw,g=r,o=r hello
-- Instead of letters, the octal format represents privileges with numbers:
+### 5 Minutes Later...
+- The permissions command should be 
+``` 
+chmod u=rw,g=r,o=r hello
+```
+<sub>It could also be chmod u=rw,og=r hello</sub>
+
+Instead of using letters, there is also the octal format which represents privileges with numbers:
 - r(ead) has the value of 4
 - w(rite) has the value of 2
 - (e)x(ecute) has the value of 1
 - no permission has the value of 0
 
-- The privileges are summed up and depicted by one number. Therefore, the possibilities are:
+The privileges are summed up and depicted by one number. Therefore, the possibilities are:
 - 7 – for read, write, and execute permission
 - 6 – for read and write privileges
 - 5 – for read and execute privileges
@@ -234,6 +239,7 @@ As you have to define permission for each category (user, group, owner), the com
 	- 4 would be read for others
 	
 Here is a table that shows how the numbers work to give permissions. 
+
 ![alt text](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Linux/Linux%20Lesson%20-%20Kimmy/img/chmod.png)
 
 # Intermediate: Lesson 1
