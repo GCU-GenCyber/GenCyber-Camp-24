@@ -183,21 +183,21 @@ chmod +x hello
 <sub>The syntax is as follows: chmod [permission] [file_name]</sub>
 
 There are three different parts to changing permissions. You must know the who, what, and which values can be used. For example, the who's are: 
- 	- u: User, meaning the owner of the file.
-	- g: Group, meaning members of the group the file belongs to.
-	- o: Others, meaning people not governed by the u and g permissions.
-	- a: All, meaning all of the above.
+- u: User, meaning the owner of the file.
+- g: Group, meaning members of the group the file belongs to.
+- o: Others, meaning people not governed by the u and g permissions.
+- a: All, meaning all of the above.
 Note: If the who is not specified, the change will be made to all users, groups, and others. 
 
 The what values are as follows: 
-    - –: Minus sign. Removes the permission.
-    - +: Plus sign. Grants the permission. The permission is added to the existing permissions. If you want to have this permission and only this permission set, use the = option, described below.
-    - =: Equals sign. Set a permission and remove others.
+- –: Minus sign. Removes the permission.
+- +: Plus sign. Grants the permission. The permission is added to the existing permissions. If you want to have this permission and only this permission set, use the = option, described below.
+- =: Equals sign. Set a permission and remove others.
 
 The which values are as follows: 
-    - r:  The read permission.
-    - w: The write permission.
-    - x: The execute permission.
+- r:  The read permission.
+- w: The write permission.
+- x: The execute permission.
 Note: A combination of all three of these will be used in the single [permissions] section. 
 
 - You can only do this if you have the permission to do so
