@@ -200,15 +200,14 @@ The which values are as follows:
 - x: The execute permission.
 Note: A combination of all three of these will be used in the single [permissions] section. 
 
-- You can only do this if you have the permission to do so
-- Since you are root, it’s allowed
-- You have to specify the permissions for each section. For example:
-- chmod u=rwx,g=rwx o=rwx hello (if you’re in Documents)
+You can only chnage permissions if you have the permission to do so. root is always allowed. You also have to specify the permissions for each section. For example:
+- chmod u=rwx,og=rwx hello (if you’re in Documents)
 - No spaces, no capitals
-- You just changed file permissions to read write and execute for the user, group, and owner of hello
-- Go ahead and ls -la again
-- Now hello should say -rwxrwxrwx
-- Try and use the chmod commands to set the permissions back to normal
+
+You just changed file permissions to read, write and execute for the user, group, and others of hello. Note: if you named the hello file hello.txt, use that instead of just hello. Go ahead and ls -la again. What are the new permissions for the hello file?
+- It should say -rwxrwxrwx
+
+Try and use the chmod commands to set the permissions back to normal
 - Make the user allowed to read and write 
 - Make the members allowed to read
 - Makes others allowed to read
@@ -237,7 +236,7 @@ As you have to define permission for each category (user, group, owner), the com
 - echo and cat 
 - nano hello.txt
 - sudo apt update
-	- Sudo just runs the command with root privileges so this would work without sudo if you were logged in as root as well. Will only work if that user has been given sudo privileges
+	- Sudo means super user do. It runs the command with super user privileges. This would work without sudo if you were logged in as root as well. This will only work if that user trying to use sudo has been given sudo privileges. 
 - df 
 	- Shows available disk spaces
 	- Can use -m to show in megabytes
