@@ -229,10 +229,16 @@ Try and use the chmod commands to set the permissions back to normal
 As you have to define permission for each category (user, group, owner), the command will include three (3) numbers (each representing the summation of privileges).
 - chmod u=rw,g=r,o=r hello command.
 - chmod 644 hello
-- At some point cd . and cd ..
-- Explain what . and .. is
+	- 6 would be read and write for users
+	- 4 would be read for group
+	- 4 would be read for others
+	
+Here is a table that shows how the numbers work to give permissions. 
+
 
 # Intermediate: Lesson 1
+- At some point cd . and cd ..
+- Explain what . and .. is
 - echo and cat 
 - nano hello.txt
 - sudo apt update
