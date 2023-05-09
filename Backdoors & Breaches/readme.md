@@ -1,5 +1,7 @@
 All the instructions and information you need to play backdoors & breaches right at your fingertips!
 
+To read: Change the format at the top from preview to code
+
 Original Link: https://mygcuedu6961-my.sharepoint.com/:o:/g/personal/aurbaszews_my_gcu_edu/Eg7lPGa4sXRGsvIAORkwLEEBZMNg5K3cpyebp-DatCzC6w?e=4k4kcx
 
 Attack Cards
