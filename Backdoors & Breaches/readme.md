@@ -15,12 +15,12 @@ Credential Stuffing- take advantage of third-party breaches to identify and use 
 	• Hydra- see password spray
 	• Users registering for services with their work emails
 
-Exploitable external service- take advantage of misconfiguration or publicly available exploit to pivot to internal resources
+Exploitable External Service- take advantage of misconfiguration or publicly available exploit to pivot to internal resources
 	• Metasploit- provides info about security vulnerabilities and pentesting 
 	• Failed patching process
 	• Unauthorized system stood up by employee
 
-Web server compromise- take over external; pivot to internal network
+Web Server Compromise- take over external; pivot to internal network
 	• Zed attack proxy- used to detect vulnerabilities present on any web server and try to remove them
 	• Sqlmap- detect and exploit database vulnerabilities and inject malicious codes
 	• Burp proxy- intercept, inspect, and modify traffic both ways; between browser and target apps
@@ -30,21 +30,21 @@ Phish- malicious email targeting users
 	• Evilginx- man in the middle framework for phishing login credentials to bypass 2-factor authentication protection
 	• Gophish- run authorized phishing simulations
 
-Social engineering- trick a user into running malware
+Social Engineering- trick a user into running malware
 	• Phones, peoples trust
 
-External cloud access- access cloud resources then pivot
+External Cloud Access- access cloud resources then pivot
 	• Spraying toolkit- see password spray
 	• Trufflehog- open source secret scanning engine that helps resolve exposed secrets across your company’s entire tech stack
 	• Fireprox- see password spray
 
-Insider threat- an internal user exfiltrates information from your network
+Insider Threat- an internal user exfiltrates information from your network
 	• Lots of time
 
-Bring your own exploited device- attackers use these devices to compromise your organization
+Bring Your Own Exploited Device- attackers use these devices to compromise your organization
 	• Do not allow workers to bring their own computers and such
 
-Trusted relationship- third party who has access to your network is compromised then pivot to internal resources
+Trusted Relationship- third party who has access to your network is compromised then pivot to internal resources
 	• Only trust certain people
 
 Pivot and Escalate Cards
@@ -130,7 +130,7 @@ DNS as C2- attackers use DNS as a C2 channel
 Domain Fronting as C2- attackers use domain fronting to bounce their traffic off of legitimate systems
 	• Cobalt Strike- assess the security of networks and systems and to identify and exploit potential vulnerabilities and weaknesses
 
-Gmail, tumblr, salesforce, twitter as C2- attackers route traffic through third-party services
+Gmail, Tumblr, Salesforce, Twitter as C2- attackers route traffic through third-party services
 	• Gcat- google cybersecurity action team
 	• Sneaky creeper- open source project that allows security professionals to import modules
 
@@ -153,14 +153,14 @@ Injects- Place any notes here!
 Procedures
 
 Netflow, Zeek/Bro, RITA Analysis- capture and review network traffic
-	• Rita- real intelligence threat analytics is an open source framework for detecting command and control communication through network traffic analysis
+	• RITA- real intelligence threat analytics is an open source framework for detecting command and control communication through network traffic analysis
 	• Security Onion- threat hunting, network security monitoring, and log management
 	• AI-Hunter- continuously threat hunts your network to identify which of your systems have been compromised
 
 Isolation- isolate infected systems to prevent further harm
 	• Switch and Router commands- look up a good cheat sheet
 
-User and Entity behavior analytics (UEBA)- looks for multiple concurrent logins, impossible logins based on geography, unusual file access, password sprays and more
+User and Entity Behavior Analytics (UEBA)- looks for multiple concurrent logins, impossible logins based on geography, unusual file access, password sprays and more
 	• Logontracer- investigates malicious logon by visualizing and analyzing windows active directory event logs
 
 Firewall Log Review- analyze and understand logs; regularly emulate attack scenarios and verify procedures
