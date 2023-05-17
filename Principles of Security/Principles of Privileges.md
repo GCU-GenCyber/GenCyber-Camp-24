@@ -55,11 +55,11 @@ PAM strategies are used for the following:
 + Prevents Catastrophic Error
 + Improves Company Policy Compliance
 
-### ***The main difference between PIM and PAM is that PIM addresses what access a user is already granted, while PAM addresses how to monitor and control access whenever a user requests access to a resource.***
-
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
 </p>
+
+### ***The main difference between PIM and PAM is that PIM addresses what access a user is already granted, while PAM addresses how to monitor and control access whenever a user requests access to a resource.***
 
 Examples of Threat Actors Include: 
   + Hackers : Typical people trying to hack your infrastructure
