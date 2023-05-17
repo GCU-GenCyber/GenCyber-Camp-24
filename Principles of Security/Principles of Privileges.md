@@ -14,6 +14,10 @@ There are various types of principles, but levels of access are always determine
 + It is defined as "the practice of restricting account creation and permission levels to only the resources a user requires to perform an authorized activity."
 + It is widely considered to be a cybersecurity best practice and it is a foundational step in protecting privileged access to critical data and assets.
 
+<p align="center">
+https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/PoLP.png
+</p>
+  
 ### Privileged Identity Management (PIM)
 + This is used to translate a user's roles within an organization into an access role on the system
 + It is a service in Azure Active Directory (Azure AD) that enables a person to manage, control, and monitor access to important resources in one's company/organization. 
