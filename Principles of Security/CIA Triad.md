@@ -11,6 +11,7 @@ There are Three parts to the CIA Triad (Hence the name Triad):
 + Integrity
 + Availability
 
+
 ### Confidentiality
 + Refers to the protection of data from unauthorized access and misuse
 + This could include employee records, accounting documents, etc. 
