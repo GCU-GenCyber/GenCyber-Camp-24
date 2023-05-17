@@ -28,8 +28,10 @@ This is the process companies use to manage which privileged users, including hu
   
 Companies want to lessen the number of people who have access to secure information or resources  because it reduces the chance of: 
   + an authorized user inadvertently impacting a sensitive resource
-  + A ***Threat Actor*** getting access. 
+  + A ***Threat Actor*** getting access.  
+<sub>Definition of TAs Down Below</sub> 
 
+  
 Examples of key features of Privileged Identity Management:
 + Provides users temporary permissions to perform privileged tasks and access to Azure AD and Azure resources
 + Assign a role where a user can use the role or have access to materials only within start and end dates
