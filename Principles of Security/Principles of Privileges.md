@@ -51,7 +51,7 @@ PAM strategies are used for the following:
 + Improves Company Policy Compliance
 
 <p align="center">
-  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Denied.png" />
 </p>
 
 ### ***The main difference between PIM and PAM is that PIM addresses what access a user is already granted, while PAM addresses how to monitor and control access whenever a user requests access to a resource.***
