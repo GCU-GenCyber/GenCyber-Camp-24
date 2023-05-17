@@ -30,17 +30,17 @@ Companies want to lessen the number of people who have access to secure informat
   + an authorized user inadvertently impacting a sensitive resource
   + A threat actor getting access. 
   
-  Examples of Threat Actors Include: 
-    + Hackers : Typical people trying to hack your infrastructure
-    + Hacktivists : Those who promote their cause their cause through hacking
-    + Script Kiddies : Can't hack so they grab known scripts; premade attacks
-    + Insiders : An employee, someone who has access to the place
-    + Competitors : They try to break in and get business info
-    + Shadow IT : Any form of IT infrastructure that is being put in an unofficial or potential illegal way. This could be another department within the company installing an access point without permission. 
-    + Criminal Syndicates : These are paid people who will Hack, DoS, ransomware, etc. for money. 
-    + State Actors : Russians, Chinese, French, state-sponsored long-term threat actors
-    + Advanced Persistent Threat (APT) : long-term hacking of something in order to get information over time; could be an organization or person
-    + Basically anyone or anything with motive and resources to attack another's IT infrastructure
+Examples of Threat Actors Include: 
+  + Hackers : Typical people trying to hack your infrastructure
+  + Hacktivists : Those who promote their cause their cause through hacking
+  + Script Kiddies : Can't hack so they grab known scripts; premade attacks
+  + Insiders : An employee, someone who has access to the place
+  + Competitors : They try to break in and get business info
+  + Shadow IT : Any form of IT infrastructure that is being put in an unofficial or potential illegal way. This could be another department within the company installing an access point without permission.
+  + Criminal Syndicates : These are paid people who will Hack, DoS, ransomware, etc. for money. 
+  + State Actors : Russians, Chinese, French, state-sponsored long-term threat actors
+  + Advanced Persistent Threat (APT) : long-term hacking of something in order to get information over time; could be an organization or person
+  + Basically anyone or anything with motive and resources to attack another's IT infrastructure
 
 Examples of key features of Privileged Identity Management:
 + Provides users temporary permissions to perform privileged tasks and access to Azure AD and Azure resources
