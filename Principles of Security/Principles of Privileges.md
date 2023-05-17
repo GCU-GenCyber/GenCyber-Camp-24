@@ -15,7 +15,7 @@ There are various types of principles, but levels of access are always determine
 + It is widely considered to be a cybersecurity best practice and it is a foundational step in protecting privileged access to critical data and assets.
 
 <p align="center">
-https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/PoLP.png
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/PoLP.png"
 </p>
   
 ### Privileged Identity Management (PIM)
