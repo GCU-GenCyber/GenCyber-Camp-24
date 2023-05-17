@@ -14,17 +14,23 @@ There are various types of principles, but levels of access are always determine
 + It is defined as "the practice of restricting account creation and permission levels to only the resources a user requires to perform an authorized activity."
 + It is widely considered to be a cybersecurity best practice and it is a foundational step in protecting privileged access to critical data and assets.
 
+Benefits of Least Privilege
++ Minimizes Attack Surface (the number of all possible attack vectors where the system can be accessed and data can be extracted.)
++ Reduces Spread of Malware
++ Protects Against Human Error
+
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/PoLP.png"
 </p>
   
 ### Privileged Identity Management (PIM)
-+ This is used to translate a user's roles within an organization into an access role on the system
-+ It is a service in Azure Active Directory (Azure AD) that enables a person to manage, control, and monitor access to important resources in one's company/organization. 
-+ Companies want to lessen the number of people who have access to secure information or resources.  
-+ This is because it reduces the chance of: 
+This is the process companies use to manage which privileged users, including human users and machine users, have access to which resources. These policies focus on ontrolling users with elevated permissions to change settings, provision or deprovision access, and make other significant changes without formal oversight. Some companies use PIM solutions to monitor user behavior and distributed access to prevent admins from having too many permissions.
+  
+Companies want to lessen the number of people who have access to secure information or resources  because it reduces the chance of: 
   + an authorized user inadvertently impacting a sensitive resource
-  + A threat actor getting access. Examples of Threat Actors Include: 
+  + A threat actor getting access. 
+  
+  Examples of Threat Actors Include: 
     + Hackers : Typical people trying to hack your infrastructure
     + Hacktivists : Those who promote their cause their cause through hacking
     + Script Kiddies : Can't hack so they grab known scripts; premade attacks
@@ -36,7 +42,7 @@ There are various types of principles, but levels of access are always determine
     + Advanced Persistent Threat (APT) : long-term hacking of something in order to get information over time; could be an organization or person
     + Basically anyone or anything with motive and resources to attack another's IT infrastructure
 
-Privileged Identity Management provides time-based and approval-based role activation to mitigate the risks of excessive, unnecessary, or misused access permissions on resources that a company cares about. Examples of key features of Privileged Identity Management:
+Examples of key features of Privileged Identity Management:
 + Provides users temporary permissions to perform privileged tasks and access to Azure AD and Azure resources
 + Assign a role where a user can use the role or have access to materials only within start and end dates
 + Require approval to activate privileged roles
@@ -44,12 +50,11 @@ Privileged Identity Management provides time-based and approval-based role activ
 + Get notifications when privileged roles are activated
 + Conduct access reviews to ensure users still need roles
 
-
-
-### Privileged Access Management
-
-
-
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
 </p>
+
+
+### Privileged Access Management
+This is the process of controlling and monitoring access to critical company resources, often using identity and access management technologies. Companies use PAM solutions to manage credentials and authenticate users when they tries to access a company resource. They also provide access to users that don't normally have access to certain materials for a certain amount of time. 
+
