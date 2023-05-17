@@ -1,7 +1,7 @@
 ## CIA Triad
 ***This is one of the most valuable items to someone wanting to learn about Cybersecurity. It is one of the foundations of cyber.***
 <p align="center">
-  <img src="http://some_place.com/image.png](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Triad.png" />
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Triad.png" />
 </p>
 
 
