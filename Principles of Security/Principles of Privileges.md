@@ -52,9 +52,10 @@ PAM strategies are used for the following:
 + Restricting Account Creation and Permissions
 + Providing Security Teams with Detailed Authorities over Sensitive Systems
 + Letting Those Teams Monitor How Privileged Resources are Being Used
-+ Preventing Threat Actors from Accessing Privileged Resources
++ Preventing ***Threat Actors*** from Accessing Privileged Resources
 + Prevents Catastrophic Error
 + Improves Company Policy Compliance
+<sub>Definition of TAs Down Below</sub> 
 
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
