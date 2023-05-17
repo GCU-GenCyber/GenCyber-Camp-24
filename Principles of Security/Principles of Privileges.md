@@ -38,6 +38,10 @@ Examples of key features of Privileged Identity Management:
 + Get notifications when privileged roles are activated
 + Conduct access reviews to ensure users still need roles
 
+<p align="center">
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Denied.png" />
+</p>
+
 ### Privileged Access Management
 This is the process of controlling and monitoring access to critical company resources, often using identity and access management technologies. Companies use PAM solutions to manage credentials and authenticate users when they tries to access a company resource. They also provide access to users that don't normally have access to certain materials for a certain amount of time. 
 
@@ -51,7 +55,7 @@ PAM strategies are used for the following:
 + Improves Company Policy Compliance
 
 <p align="center">
-  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Denied.png" />
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
 </p>
 
 ### ***The main difference between PIM and PAM is that PIM addresses what access a user is already granted, while PAM addresses how to monitor and control access whenever a user requests access to a resource.***
