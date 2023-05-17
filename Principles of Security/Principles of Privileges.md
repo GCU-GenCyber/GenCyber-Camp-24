@@ -4,6 +4,9 @@ Principles of Privileges refer to what level of access employee have. There are 
 + The Individual's Position within a Company/Organization
 + The Sensitivity of the Information Being Stored
 
+
+
+
 1. Privileged Identity Management (PIM)
 + This is used to translate a user's roles within an organization into an access role on the system
 + It is a service in Azure Active Directory (Azure AD) that enables a person to manage, control, and monitor access to important resources in one's company/organization. 
