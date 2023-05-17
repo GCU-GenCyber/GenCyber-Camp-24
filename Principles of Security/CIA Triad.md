@@ -1,6 +1,10 @@
 ## CIA Triad
-***This is one of the most valuable items to as someone wanting to learn about Cybersecurity. It is one of the foundations of cyber.***
-![alttext](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Triad.png)
+***This is one of the most valuable items to someone wanting to learn about Cybersecurity. It is one of the foundations of cyber.***
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Triad.png" />
+</p>
+
+
 + The CIA Triad is a model that is used to form security systems. 
 + It is used to find vulnerabilities and ways to create solutions. 
 + When all three standards have been met, the security profile of the organization is stronger and better equipped to handle threat incidents.
