@@ -29,18 +29,6 @@ This is the process companies use to manage which privileged users, including hu
 Companies want to lessen the number of people who have access to secure information or resources  because it reduces the chance of: 
   + an authorized user inadvertently impacting a sensitive resource
   + A threat actor getting access. 
-  
-Examples of Threat Actors Include: 
-  + Hackers : Typical people trying to hack your infrastructure
-  + Hacktivists : Those who promote their cause their cause through hacking
-  + Script Kiddies : Can't hack so they grab known scripts; premade attacks
-  + Insiders : An employee, someone who has access to the place
-  + Competitors : They try to break in and get business info
-  + Shadow IT : Any form of IT infrastructure that is being put in an unofficial or potential illegal way. This could be another department within the company installing an access point without permission.
-  + Criminal Syndicates : These are paid people who will Hack, DoS, ransomware, etc. for money. 
-  + State Actors : Russians, Chinese, French, state-sponsored long-term threat actors
-  + Advanced Persistent Threat (APT) : long-term hacking of something in order to get information over time; could be an organization or person
-  + Basically anyone or anything with motive and resources to attack another's IT infrastructure
 
 Examples of key features of Privileged Identity Management:
 + Provides users temporary permissions to perform privileged tasks and access to Azure AD and Azure resources
@@ -57,4 +45,32 @@ Examples of key features of Privileged Identity Management:
 
 ### Privileged Access Management
 This is the process of controlling and monitoring access to critical company resources, often using identity and access management technologies. Companies use PAM solutions to manage credentials and authenticate users when they tries to access a company resource. They also provide access to users that don't normally have access to certain materials for a certain amount of time. 
+
+PAM strategies are used for the following: 
++ Enforcing ***Principle of Least Privilege***
++ Restricting Account Creation and Permissions
++ Providing Security Teams with Detailed Authorities over Sensitive Systems
++ Letting Those Teams Monitor How Privileged Resources are Being Used
++ Preventing Threat Actors from Accessing Privileged Resources
++ Prevents Catastrophic Error
++ Improves Company Policy Compliance
+
+### ***The main difference between PIM and PAM is that PIM addresses what access a user is already granted, while PAM addresses how to monitor and control access whenever a user requests access to a resource.***
+
+<p align="center">
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
+</p>
+
+Examples of Threat Actors Include: 
+  + Hackers : Typical people trying to hack your infrastructure
+  + Hacktivists : Those who promote their cause their cause through hacking
+  + Script Kiddies : Can't hack so they grab known scripts; premade attacks
+  + Insiders : An employee, someone who has access to the place
+  + Competitors : They try to break in and get business info
+  + Shadow IT : Any form of IT infrastructure that is being put in an unofficial or potential illegal way. This could be another department within the company installing an access point without permission.
+  + Criminal Syndicates : These are paid people who will Hack, DoS, ransomware, etc. for money. 
+  + State Actors : Russians, Chinese, French, state-sponsored long-term threat actors
+  + Advanced Persistent Threat (APT) : long-term hacking of something in order to get information over time; could be an organization or person
+  + Basically anyone or anything with motive and resources to attack another's IT infrastructure
+
 
