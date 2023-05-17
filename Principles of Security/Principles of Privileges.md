@@ -1,9 +1,18 @@
 
 ## Principles of Privileges
-Principles of Privileges refer to what level of access employee have. There are various types of principles, but levels of access are always determined by 2 factors:
+Almost every organization uses identity and access management (IAM) strategies or tools as part of its security practices. IAM is the encompassing term to describe how companies manage user identities, authenticate users, and control access to company resources. Privileged identity management (PIM) and privileged access management (PAM) are subgroups of IAM.
+
+PIM and PAM lets companies manage who can access a company’s most critical resources, like servers, databases, and applications. They operate under the ***Principle of least Privilege** to limit who and how many users can access secure systems and the sensitive data stored within.  
+
+There are various types of principles, but levels of access are always determined by 2 factors:
 + The Individual's Position within a Company/Organization
 + The Sensitivity of the Information Being Stored
 
+### Principle of Least Privilege
++ The principle that users should be given the minimum amount of privileges. 
++ Only those absolutely necessary should have access to certain content. 
++ It is defined as "the practice of restricting account creation and permission levels to only the resources a user requires to perform an authorized activity."
++ It is widely considered to be a cybersecurity best practice and it is a foundational step in protecting privileged access to critical data and assets.
 
 ### Privileged Identity Management (PIM)
 + This is used to translate a user's roles within an organization into an access role on the system
@@ -32,6 +41,11 @@ Privileged Identity Management provides time-based and approval-based role activ
 + Conduct access reviews to ensure users still need roles
 
 
+
 ### Privileged Access Management
 
 
+
+<p align="center">
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/pim-vs-pam.png" />
+</p>
