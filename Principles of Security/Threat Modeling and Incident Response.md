@@ -1,37 +1,38 @@
 ## Threat Modeling and Incident Response
-- Process of reviewing, improving, and testing the security protocols in place
-- 4 main principles
-    - preparation
-    - identification
-    - mitigation
-    - review
-- But, if its a complex process
-    - threat intelligence
-    - asset identification
-    - mitigation capabilities
-    - risk assessment
-- STRIDE
-    - Spoofing Identity
-        
-        - requires authentication of requests and users accessing a system
-        - involves a malicious party impersonating another user
-        - Access keys (API keys) or signatures via encryption helps remidate
-    - Tampering with data
-        
-        - anti-tampering measures on a system or application help provide integrity to data
+Threat Modeling is the process of reviewing, improving, and testing the security protocols in place. There are several different cyber threat modeling methodologies. They are all used to help companies improve their cybersecurity and threat intelligence practices. We will go over the STRIDE and PASTA methodologies. There are four main principles in Threat Modeing. 
++ Preparation
++ Identification
++ Mitigation
++ Review
+
+However, if the particular incident is a complex process, then there are different principles. Those are: 
++ Threat Intelligence
++ Asset Identification
++ Mitigation Capabilities
++ Risk Assessment
+
+### STRIDE: Used to Identifying Computer Security Threats 
++ Spoofing Identity
+    + Requires authentication of requests and users accessing a system
+    + Involves a malicious party impersonating another user
+    + Access keys (API keys) or signatures via encryption helps remidate
++ Tampering with data
+    + Anti-tampering measures on a system or application help provide integrity to data
         - like seals on food products
-    - Repudiation threats
-        
-        - dictates the use of services such as logging of activity for a system or application to track
-    - Information Disclosure
-        
-        - same principle as of least privilege; don't disclose more than necessary
-    - Denial of Service
-        
-        - apps use system resources, there should be measures taken so that the app isn't bringing the whole system down
-    - Elevation of privileges
-        
-        - worst case scenario
++ Repudiation threats
+    + dictates the use of services such as logging of activity for a system or application to track
++ Information Disclosure
+    + same principle as of least privilege; don't disclose more than necessary
++ Denial of Service 
+     + Applications use system resources, so there should be measures taken so that the app isn't bringing the whole system down
++ Elevation of privileges
+      + Worst case scenario
+
+<p align="center">
+    <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/edit/main/Principles%20of%20Security/img/STRIDE.png">
+</p>
+
+
 - PASTA
     - Process for Attack Simulation and Threat Analysis
 - Breach of security is known as an incident
