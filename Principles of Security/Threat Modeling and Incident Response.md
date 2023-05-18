@@ -38,6 +38,7 @@ However, if the particular incident is a complex process, then there are differe
 - Breach of security is known as an incident
     - hence incident response
     - they're classified by urgency and impact
+    - 
     
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/edit/main/Principles%20of%20Security/img/Threats.png">
