@@ -41,7 +41,7 @@ However, if the particular incident is a complex process, then there are differe
     - 
     
 <p align="center">
-  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Threats.png" />
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Threat.png" />
 </p>
 
 - CSIRT: Computer Security Incident Response Team
