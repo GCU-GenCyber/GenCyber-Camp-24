@@ -17,8 +17,7 @@ However, if the particular incident is a complex process, then there are differe
     + Involves a malicious party impersonating another user
     + Access keys (API keys) or signatures via encryption helps remidate
 + Tampering with data
-    + Anti-tampering measures on a system or application help provide integrity to data
-        - like seals on food products
+    + Anti-tampering measures on a system or application help provide integrity to data (like seals on food products)
 + Repudiation threats
     + dictates the use of services such as logging of activity for a system or application to track
 + Information Disclosure
