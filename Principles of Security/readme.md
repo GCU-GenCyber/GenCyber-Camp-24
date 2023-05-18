@@ -3,6 +3,5 @@
   + CIA Triad
   + Principles of Privileges
   + Threat Modeling
-  + Incident Response
-  + Phases to Resolve and Incident
+  + Incident Response and Phases to Resolve an Incident
   + NIST & NCSC CAF
