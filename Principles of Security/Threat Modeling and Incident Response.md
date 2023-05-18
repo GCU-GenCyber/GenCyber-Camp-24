@@ -26,7 +26,7 @@ However, if the particular incident is a complex process, then there are differe
 + Denial of Service 
      + Applications use system resources, so there should be measures taken so that the app isn't bringing the whole system down
 + Elevation of privileges
-      + Worst case scenario
+    + Worst case scenario
 
 <p align="center">
     <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/STRIDE.png" />
