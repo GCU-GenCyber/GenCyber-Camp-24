@@ -33,22 +33,41 @@ However, if the particular incident is a complex process, then there are differe
 </p>
 
 
-- PASTA
-    - Process for Attack Simulation and Threat Analysis
-- Breach of security is known as an incident
-    - hence incident response
-    - they're classified by urgency and impact
-    - 
+### PASTA: Process for Attack Simulation and Threat Analysis
+PASTA is used to simulate attacks, analyze threats, how they started, what their risks are, and how to mitigate those risks. The model is used to Identify the Threats, Enumerate them, and Assign a Score. 
+
+<p align="center">
+  <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/PASTA.png" />
+</p>
+
+**A Breach of Security is Known as an Incident**
+    - Hence the Term Incident Response
+    - Incidents are classified by Urgency and Impact
     
 <p align="center">
   <img src="https://github.com/GCU-GenCyber/GenCyber-Camp-23/blob/main/Principles%20of%20Security/img/Threat.png" />
 </p>
 
-- CSIRT: Computer Security Incident Response Team
-- 6 Phases of to resolve and incident
+**Companies Should Have a CSIRT: Computer Security Incident Response Team**
+- Their a Group of IT Professionals that Respond to Incidents and Help Prevent Cybersecurity Emergencies. 
+- Their Main Goal is to Respond to Incidents Quickly and Efficiently which will Minimize Damage on a system and Regain Control of it. 
+- There are 6 Phases of to Resolve an Incident
     - Preparation
     - Identification
     - Containment
     - Eradication
     - Recovery
     - Lessons Learned
+
+CSIRTs Have Many Responsibilities Such As: 
++ Create and update incident response plans
++ Maintain and communicate information to internal and external entities
++ Identify, assess and analyze incidents
++ Coordinate and communicate response efforts
++ Remediate incidents
++ Report on incidents
++ Manage audits
++ Review security policies
++ Recommend changes to prevent future incidents
+
+Donegan, K., &amp; Sullivan, P. (2023, February 13). What is a computer security incident response team (CSIRT)?: Definition from TechTarget. WhatIs.com. https://www.techtarget.com/whatis/definition/Computer-Security-Incident-Response-Team-CSIRT 
