@@ -1,4 +1,4 @@
-# Lockheed Martin Cyber Killchain
+# Lockheed Martin Cyber Kill Chain
 
 The Lockheed Cyber Kill Chain is a methodology used to understand the steps of a cyber attack. It was developed by Lockheed Martin, a leading aerospace and defense company, and has been widely adopted as a framework for analyzing cyber threats.
 
