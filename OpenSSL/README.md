@@ -7,7 +7,7 @@ Welcome to the OpenSSL Asymmetric Encryption Lesson repository! This lesson is d
 - [Lesson Description](lesson_description.md)
 - [Learning Outcomes](learning_outcomes.md)
 - [Lesson Details](lesson_details.md)
-- [Assessment](OpenSSL/Files/assessment.md)
+- [Assessment](Files/assessment.md)
 - [Extension Activities](extension_activities.md)
 - [Differentiated Learning Opportunities](differentiated_learning.md)
 - [Lesson Plan](lesson_plan.md)
