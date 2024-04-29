@@ -4,14 +4,14 @@
 Welcome to the OpenSSL Asymmetric Encryption Lesson repository! This lesson is designed to introduce high school students to the concept of asymmetric encryption using OpenSSL. It covers the generation of RSA key pairs, encryption and decryption of messages, and the differences between asynchronous and synchronous encryption methods.
 
 ## Table of Contents
-- [Lesson Description](lesson_description.md)
-- [Learning Outcomes](learning_outcomes.md)
-- [Lesson Details](lesson_details.md)
+- [Lesson Description](Files/lesson_description.md)
+- [Learning Outcomes](Files/learning_outcomes.md)
+- [Lesson Details](Files/lesson_details.md)
 - [Assessment](Files/assessment.md)
-- [Extension Activities](extension_activities.md)
-- [Differentiated Learning Opportunities](differentiated_learning.md)
-- [Lesson Plan](lesson_plan.md)
-- [Additional Resources](additional_resources.md)
+- [Extension Activities](Files/extension_activities.md)
+- [Differentiated Learning Opportunities](Files/differentiated_learning.md)
+- [Lesson Plan](Files/lesson_plan.md)
+- [Additional Resources](Files/additional_resources.md)
 
 
 ## Getting Started
