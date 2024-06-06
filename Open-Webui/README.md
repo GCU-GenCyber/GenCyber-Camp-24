@@ -7,7 +7,6 @@ Open-WebUI is an open-source web user interface framework designed to make it ea
 - [Supported Operating Systems](#supported-operating-systems)
 - [Fun Features](#fun-features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
