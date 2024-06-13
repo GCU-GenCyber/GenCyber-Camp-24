@@ -39,3 +39,14 @@ sudo docker run -d -p 8080:8080 -v ollama:/root/.ollama -v open-webui:/app/backe
 ##### 4. change the URL
 
 http://localhost:8080
+
+#### 5. change the clipboard permission
+
+on a seperate tab search about:config accept the risk and continue. Search clipboard on the search bar and copy the screenshot.
+
+![config](https://github.com/GCU-GenCyber/GenCyber-Camp-24/assets/117708036/952be693-78b5-4ec7-9706-59879cb1f80c)
+
+
+
+
+
