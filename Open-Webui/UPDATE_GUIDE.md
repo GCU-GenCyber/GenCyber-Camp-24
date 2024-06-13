@@ -5,6 +5,12 @@ Keeping your Open WebUI Docker installation up-to-date ensures you have the late
 ### Manual Update
 
 Follow these steps to manually update your Open WebUI:
+allways update your system before installation: 
+
+```bash
+sudo apt udate
+```
+It will ask for the password. The password won't be visible as you type, but don't worry, it is being entered. Press Enter once you have input your password.
 
 #### 1. Pull the Latest Docker Image
 
@@ -25,8 +31,11 @@ sudo docker rm open-webui
 
 #### 3. Create a New Container with the Updated Image
 
-Finally, create a new container using the updated image. Use the same `docker run` command you used initially to create the container, ensuring all your configurations remain the same:
-
+Finally, create a new container using the updated image. This will update Open WebUI with the local port changed to 8080. Use the following command, ensuring all your configurations remain the same:
 ```bash
 sudo docker run -d -p 8080:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
+
+##### 4. change the URL
+
+http://localhost:8080
