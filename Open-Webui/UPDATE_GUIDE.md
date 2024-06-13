@@ -1,6 +1,6 @@
 ## Updating Your Docker Installation
 
-Keeping your Open WebUI Docker installation up-to-date ensures you have the latest features and security updates. You can update your installation manually or use Watchtower for automatic updates.
+Keeping your Open WebUI Docker installation up-to-date ensures you have the latest features and security updates.
 
 ### Manual Update
 
@@ -42,7 +42,7 @@ http://localhost:8080
 
 #### 5. change the clipboard permission
 
-on a seperate tab search about:config accept the risk and continue. Search clipboard on the search bar and copy the screenshot.
+On a seperate tab, search ```about:config``` accept the risk and continue. Search ``clipboard`` on the search bar and copy the screenshot.
 
 ![config](https://github.com/GCU-GenCyber/GenCyber-Camp-24/assets/117708036/952be693-78b5-4ec7-9706-59879cb1f80c)
 
