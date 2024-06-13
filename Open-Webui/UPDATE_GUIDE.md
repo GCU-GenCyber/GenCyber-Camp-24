@@ -8,7 +8,7 @@ Follow these steps to manually update your Open WebUI:
 allways update your system before installation: 
 
 ```bash
-sudo apt udate
+sudo apt update
 ```
 It will ask for the password. The password won't be visible as you type, but don't worry, it is being entered. Press Enter once you have input your password.
 
