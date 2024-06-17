@@ -5,22 +5,26 @@ Keeping your Open WebUI Docker installation up-to-date ensures you have the late
 ### Manual Update
 
 Follow these steps to manually update your Open WebUI:
-allways update your system before installation: 
+
+#### 1. Update Your System
+
+Always update your system before any installation:
 
 ```bash
 sudo apt update
 ```
-It will ask for the password. The password won't be visible as you type, but don't worry, it is being entered. Press Enter once you have input your password.
 
-#### 1. Pull the Latest Docker Image
+You will be prompted for your password. The password won't be visible as you type, but don't worry, it is being entered. Press Enter once you have input your password.
 
-First, you need to pull the latest image from the repository:
+#### 2. Pull the Latest Docker Image
+
+First, pull the latest image from the repository:
 
 ```bash
 sudo docker pull ghcr.io/open-webui/open-webui:main
 ```
 
-#### 2. Stop and Remove the Existing Container
+#### 3. Stop and Remove the Existing Container
 
 Next, stop and remove the existing container to ensure you can create a new container from the updated image:
 
@@ -29,24 +33,23 @@ sudo docker stop open-webui
 sudo docker rm open-webui
 ```
 
-#### 3. Create a New Container with the Updated Image
+#### 4. Create a New Container with the Updated Image
 
 Finally, create a new container using the updated image. This will update Open WebUI with the local port changed to 8080. Use the following command, ensuring all your configurations remain the same:
+
 ```bash
 sudo docker run -d -p 8080:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
 
-##### 4. change the URL
+#### 5. Access Open WebUI
 
-http://localhost:8080
+Change the URL to:
 
-#### 5. change the clipboard permission
+[http://localhost:8080](http://localhost:8080)
 
-On a seperate tab, search ```about:config``` accept the risk and continue. Search ``clipboard`` on the search bar and copy the screenshot.
+#### 6. Change the Clipboard Permission
+
+On a separate tab in your browser, navigate to `about:config`. Accept the risk and continue. Search for `clipboard` in the search bar and copy the screenshot below:
 
 ![config](https://github.com/GCU-GenCyber/GenCyber-Camp-24/assets/117708036/952be693-78b5-4ec7-9706-59879cb1f80c)
-
-
-
-
 
